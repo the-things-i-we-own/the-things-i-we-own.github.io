@@ -1,8 +1,22 @@
 # org
 **https://creative-community.space/org/**
 
-## This Page: https://creative-community.space/org/template/
+## This Page
+https://creative-community.space/org/template/
 
+
+## about.php
+ページタイトル・説明文・リンクを記述する
+## images.csv
+カバービジュアル・画像付きリストに品目を追加
+## images.css
+カバービジュアルのスタイリング
+## about.csv
+絞り込みについての説明
+## test/index.php 
+必要なリストを複製
+## __/list.csv
+リストに品目を追加
 
 *CSS Text & Color*
 
