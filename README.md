@@ -17,9 +17,10 @@ https://creative-community.space/org/template/
 必要なリストを複製
 ## __/list.csv
 リストに品目を追加
-　　
+
 *　　
-　　
+
+
 # index.php
 
 > header > title | meta 編集
@@ -29,27 +30,30 @@ https://creative-community.space/org/template/
 > body > .mousedragscrollable | script > $("#__").load("__/index.php"); を編集
 > 
 
+
 *CSS Text & Color*
 
 フォント一覧
 
-> https://www.cssfontstack.com/
-> 
-> https://mimi.moe.in/nmp/fonts/allfonts
-> 
-> https://fonts.google.com/
-> 
+https://www.cssfontstack.com/
+
+https://mimi.moe.in/nmp/fonts/allfonts
+
+https://fonts.google.com/
+
 
 カラーチャート
-> https://fromkato.com/color
-> 
-> https://htmlcolorcodes.com/color-names/
-> 
+
+https://fromkato.com/color
+
+https://htmlcolorcodes.com/color-names/
+
 
 参考ツール
-> https://picular.co/
-> 
-> https://pigment.shapefactory.co/
-> 
-> https://colorable.jxnblk.com/
-> 
+
+https://picular.co/
+
+https://pigment.shapefactory.co/
+
+https://colorable.jxnblk.com/
+
