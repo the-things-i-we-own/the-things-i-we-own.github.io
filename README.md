@@ -1,7 +1,7 @@
 #org/
 https://creative-community.space/org/
 
-Demo Page: https://creative-community.space/org/template/
+This Page: https://creative-community.space/org/template/
 
 
 CSS Text & Color
