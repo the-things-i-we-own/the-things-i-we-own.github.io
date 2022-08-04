@@ -383,7 +383,11 @@ fclose($fp);
         </div>
         <ul class="mousedragscrollable">
             <li id="about" class="collection"></li>
-            <li id="test" class="collection"></li>
+            <li id="daily" class="collection"></li>
+            <li id="tool" class="collection"></li>
+            <li id="food" class="collection"></li>
+            <li id="wear" class="collection"></li>
+            <li id="goods" class="collection"></li>
             <li id="img" class="collection"></li>
         </ul>
     </main>
@@ -424,7 +428,11 @@ fclose($fp);
 
         $(function() {
             $("#about").load("about.php");
-            $("#test").load("test/index.php");
+            $("#daily").load("daily/index.php");
+            $("#tool").load("tool/index.php");
+            $("#food").load("food/index.php");
+            $("#wear").load("wear/index.php");
+            $("#goods").load("goods/index.php");
             $("#img").load("images.php");
         })
     </script>
