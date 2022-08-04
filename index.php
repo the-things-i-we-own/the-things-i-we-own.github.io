@@ -108,9 +108,9 @@ fclose($fp);
         #gift:checked~label,
         #free:checked~label,
         #made:checked~label,
-        #collaborations:checked~label,
+        #cant:checked~label,
         #other:checked~label,
-        #sale:checked~label {
+        #jmty:checked~label {
             text-decoration: double underline;
         }
         
@@ -319,31 +319,31 @@ fclose($fp);
                     <li>ｾﾚｸﾄ</li>
                     <li>
                         <input type="radio" name="org" value="bought" id="bought">
-                        <label for="bought" class="label">bought</label>
+                        <label for="bought" class="label">買った</label>
                     </li>
                     <li>
                         <input type="radio" name="org" value="gift" id="gift">
-                        <label for="gift" class="label">gift</label>
+                        <label for="gift" class="label">もらった</label>
                     </li>
                     <li>
                         <input type="radio" name="org" value="free" id="free">
-                        <label for="free" class="label">free or found</label>
+                        <label for="free" class="label">拾った</label>
                     </li>
                     <li>
                         <input type="radio" name="org" value="made" id="made">
-                        <label for="made" class="label">made</label>
+                        <label for="made" class="label">作った</label>
                     </li>
                     <li>
-                        <input type="radio" name="org" value="collaborations" id="collaborations">
-                        <label for="collaborations" class="label">collaborations</label>
+                        <input type="radio" name="org" value="cant" id="cant">
+                        <label for="cant" class="label">捨てられない</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="org" value="jmty" id="jmty">
+                        <label for="jmty" class="label">お譲りします</label>
                     </li>
                     <li>
                         <input type="radio" name="org" value="other" id="other">
-                        <label for="other" class="label">other</label>
-                    </li>
-                    <li>
-                        <input type="radio" name="org" value="sale" id="sale">
-                        <label for="sale" class="label">$$$ FOR SALE $$$</label>
+                        <label for="other" class="label">その他</label>
                     </li>
                     <li class="reset">
                         <input type="reset" name="reset" value="View All" class="reset-button label" onclick="greeting()">
