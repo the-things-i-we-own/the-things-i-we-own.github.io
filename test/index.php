@@ -30,26 +30,18 @@ fclose($fp);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="index.js"></script>
     <style>
-        :root {
-            --list-bg: transparent;
-            --list-text: green;
-            --org-text: blue;
-            --org-bg: green;
-            --org-border: solid 1px blue;
-            --update-text: #fff;
-        }
 
-        #test {
+        .org {
             position: relative;
             color: var(--list-text);
             background-color: var(--list-bg);
         }
 
-        #test h2 {
+        .org h2 {
             padding: 1rem 1rem 0.25rem;
         }
 
-        #test p {
+        .org p {
             font-size: 0.75rem;
             margin: 0;
             padding: 0.25rem 0.5rem;
@@ -57,13 +49,13 @@ fclose($fp);
             display: block;
             transform: scale(1, 1.25);
         }
-        
-        #test p b {
+
+        .org p b {
             font-size: 150%;
             display: inline-block;
         }
-        
-        #test p u {
+
+        .org p u {
             float: right;
             text-transform: uppercase;
             font-size: 75%;
@@ -76,8 +68,8 @@ fclose($fp);
             border-radius: 0.25rem;
             display: block;
         }
-        
-        #test .update {
+
+        .org .update {
             color: var(--update-text);
             padding: 0.25rem 1rem 1.25rem;
         }
@@ -85,9 +77,9 @@ fclose($fp);
 </head>
 
 <body>
-    <ol id="test" class="org">
+    <ol class="org">
         <h2>リスト</h2>
-        <p class="update cc_style">
+        <p class="update">
         Last Modified : 
             <?php
             $mod = filemtime('list.csv');
