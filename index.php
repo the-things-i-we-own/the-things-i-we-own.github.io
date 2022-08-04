@@ -427,7 +427,7 @@ fclose($fp);
         });
 
         $(function() {
-            $("#about").load("about.php");
+            $("#about").load("about.html");
             $("#daily").load("daily/index.php");
             $("#tool").load("tool/index.php");
             $("#food").load("food/index.php");
