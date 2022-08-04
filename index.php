@@ -27,18 +27,18 @@ fclose($fp);
 <html lang="ja">
 
 <head>
-    <title>Title | The Things I (We) Own</title>
+    <title>The Things nk Own</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="format-detection" content="telephone=no">
-    <meta name="author" content="creative-community.space">
-    <meta name="reply-to" content="___@email">
-    <meta name="description" content="___">
+    <meta name="author" content="nakaokaori">
+    <meta name="reply-to" content="nakaokaorii@gmail.com">
+    <meta name="description" content="This page is the things nk own.">
 
     <meta property="og:title" content="___" />
     <meta property="og:description" content="___" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="___" />
+    <meta property="og:url" content="https://creative-community.space/org/nakaokaori/" />
     <meta property="og:site_name" content="creative-community.space" />
     <meta property="og:image" content="___" />
     <meta property="og:locale" content="ja_JP" />
