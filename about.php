@@ -33,36 +33,20 @@ fclose($fp);
     <style>
         :root {
             --about-bg: #fff;
-            --about-text: orange;
-            --about-border: dashed 1px purple;
-            --about-decoration: pink wavy underline;
-            --about-a: pink;
-        }
-        
-        #about p u {
-            float: right;
-            text-transform: uppercase;
-            font-size: 75%;
-            margin: 0;
-            padding: 0.125rem 0.25rem;
-            text-decoration: none;
-            color: orange;
-            background: pink;
-            border: solid 1px orange;
-            border-radius: 0.25rem;
-            display: block;
+            --about-decoration: blue wavy underline;
+            --about-a: blue;
         }
 
         #about {
             position: relative;
-            color: var(--about-text);
+            color: var(--text-color);
             background-color: var(--about-bg);
         }
 
         #about hr {
             margin: 2rem 0;
             border: none;
-            border-bottom: var(--about-border);
+            border-bottom: var(--border-style);
         }
 
         #about h2 {
@@ -89,6 +73,20 @@ fclose($fp);
         #about p b {
             font-size: 150%;
             display: inline-block;
+        }
+        
+        #about p u {
+            float: right;
+            text-transform: uppercase;
+            font-size: 75%;
+            margin: 0;
+            padding: 0.125rem 0.25rem;
+            text-decoration: none;
+            color: var(--org-text);
+            background-color: var(--org-bg);
+            border: var(--org-border);
+            border-radius: 0.25rem;
+            display: block;
         }
     </style>
 </head>
