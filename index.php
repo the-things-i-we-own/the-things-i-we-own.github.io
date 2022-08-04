@@ -307,7 +307,7 @@ fclose($fp);
     <header id="header">
         <a class="_more" onclick="more()"> ☆ ~  **</a>
         <marquee id="marquee">
-            ここをクリックすると、仲尾佳織が所有するもの一覧が表示されます。
+            ここをクリックすると、ﾅｶｵｶｵﾘが所有するもの一覧が表示されます。
         </marquee>
         <nav id="nav">
             <h1>ｎａｋａｏｋａｏｒｉ</h1>
