@@ -305,18 +305,18 @@ fclose($fp);
 <body id="open">
 
     <header id="header">
-        <a class="_more" onclick="more()">ホームページのタイトル</a>
+        <a class="_more" onclick="more()"> ☆ ~  **</a>
         <marquee id="marquee">
-            ここをクリックすると、（）が所有するもの一覧が表示されます。
+            ここをクリックすると、nkが所有するもの一覧が表示されます。
         </marquee>
         <nav id="nav">
-            <h1>ホームページのタイトル</h1>
+            <h1>ｎａｋａｏｋａｏｒｉ</h1>
             <span id="presents">
-                <img src="qr.png" width="50rem">
+                <img src="/org/qr.png" width="50rem">
             </span>
             <form>
                 <ol class="search-box">
-                    <li>絞り込み</li>
+                    <li>ｾﾚｸﾄ</li>
                     <li>
                         <input type="radio" name="org" value="bought" id="bought">
                         <label for="bought" class="label">bought</label>
