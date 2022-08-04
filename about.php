@@ -1,27 +1,3 @@
-<?php
-function h($str) {
-    return htmlspecialchars($str, ENT_QUOTES, 'UTF-8');
-}
-$org = (string)filter_input(INPUT_POST, 'org');
-$title = (string)filter_input(INPUT_POST, 'title');
-$text = (string)filter_input(INPUT_POST, 'text');
-
-$fp = fopen('about.csv', 'a+b');
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    flock($fp, LOCK_EX);
-    fputcsv($fp, [$org, $title, $text,]);
-    rewind($fp);
-}
-
-flock($fp, LOCK_SH);
-while ($row = fgetcsv($fp)) {
-    $rows[] = $row;
-}
-flock($fp, LOCK_UN);
-fclose($fp);
-
-?>
-
 <!DOCTYPE html>
 <html lang="ja">
 
@@ -107,28 +83,6 @@ fclose($fp);
         <p>3-a.日用品</p>
         <p>3-b.道具</p>
         <p>3-c.置物・飾り</p>
-        <hr/>
-        <h2>絞り込みについて</h2>
-        <br/>
-        <?php if (!empty($rows)): ?>
-        <?php foreach ($rows as $row): ?>
-        <li class="list_item list_toggle" data-org="<?=h($row[0])?>">
-            <p>
-                <u><?=h($row[0])?></u>
-                <b><?=h($row[1])?></b>
-            </p>
-            <p><?=h($row[2])?></p>
-        </li>
-        <?php endforeach; ?>
-        <?php else: ?>
-        <li class="list_item list_toggle" data-org="test">
-            <p>
-                <u>ORG</u>
-                <b>カテゴリ名</b>
-            </p>
-            <p>カテゴリの説明</p>
-        </li>
-        <?php endif; ?>
         <br/>
         <p>Links <a href="#" target="_blank">Title</a></p>
     </ol>
