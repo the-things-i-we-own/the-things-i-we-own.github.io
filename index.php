@@ -312,7 +312,7 @@ fclose($fp);
         <nav id="nav">
             <h1>ホームページのタイトル</h1>
             <span id="presents">
-                <img src="qr.png" width="50rem">
+                <img src="https://creative-community.space/org/qr.png" width="50rem">
             </span>
             <form>
                 <ol class="search-box">
