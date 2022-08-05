@@ -37,6 +37,11 @@ $("._more").click(function(e) {
     synth.triggerAttackRelease(notes[randNote], "1");
 });
 
+$("#text").click(function(e) {
+    let randNote = Math.floor(Math.random() * notes.length);
+    synth.triggerAttackRelease(notes[randNote], "1n");
+});
+
 $(".label").click(function(e) {
     let randNote = Math.floor(Math.random() * notes.length);
     synth.triggerAttackRelease(notes[randNote], "2n");
