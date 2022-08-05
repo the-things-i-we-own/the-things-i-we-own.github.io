@@ -44,7 +44,7 @@ fclose($fp);
         }
 
         #about hr {
-            margin: 1rem 0;
+            margin: 2rem 0;
             border: none;
             border-bottom: var(--border-style);
         }
