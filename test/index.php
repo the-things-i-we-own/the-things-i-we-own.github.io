@@ -33,6 +33,7 @@ fclose($fp);
 
         .org {
             position: relative;
+            min-height: 100%;
             color: var(--list-text);
             background-color: var(--list-bg);
         }
