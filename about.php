@@ -44,7 +44,7 @@ fclose($fp);
         }
 
         #about hr {
-            margin: 2rem 0;
+            margin: 1rem 0;
             border: none;
             border-bottom: var(--border-style);
         }
@@ -94,7 +94,6 @@ fclose($fp);
 <body>
     <ol id="about" class="org">
         <h2>このホームページについて</h2>
-        <br/>
         <p>挨拶文</p>
         <p>リストの区分について</p>
         <hr/>
