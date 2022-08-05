@@ -379,9 +379,10 @@ fclose($fp);
             <p id="text"></p>
         </div>
         <div id="server">
-            <p>
+            <p>SERVER :
                     <?php
-                    echo 'SERVER : '. $_SERVER['SERVER_NAME']."<br/>";
+                    echo $_SERVER['SERVER_NAME'];
+                    echo $_SERVER['REQUEST_URI'];
                     ?>
             </p>
         </div>
