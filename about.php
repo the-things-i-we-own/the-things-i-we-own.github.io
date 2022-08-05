@@ -64,7 +64,6 @@ fclose($fp);
         
         #about p a {
             display: inline-block;
-            font-size: 75%;
             margin-left: 0.25rem;
             color: var(--about-a);
             text-decoration: var(--about-decoration);
@@ -119,7 +118,7 @@ fclose($fp);
         </li>
         <?php endif; ?>
         <br/>
-        <p>Links : 
+        <p>Links
             <a href="https://creative-community.space/org/" target="_blank">ORG</a>
             <a href="https://github.com/the-things-i-we-own" target="_blank">GitHub</a>
         </p>
