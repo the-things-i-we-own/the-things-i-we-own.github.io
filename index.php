@@ -381,14 +381,14 @@ fclose($fp);
         <div id="server">
             <p>
                 <?php
-                    echo $_SERVER['HTTP_HOST'];
+                    echo $_SERVER['HTTPS'];
+                    echo $_SERVER['SERVER_PROTOCOL'];
+                    echo $_SERVER['SERVER_NAME'];
                     echo $_SERVER['REQUEST_URI'];
                 ?>
                 <br/>
                 <?php
                     echo $_SERVER['SERVER_PORT'];
-                    echo $_SERVER['SERVER_PROTOCOL'];
-                    echo $_SERVER['HTTPS'];
                     echo $_SERVER['SERVER_ADDR'];
                 ?>
             </p>
@@ -404,7 +404,7 @@ fclose($fp);
         <address id="print">
             <span class="cc_style">
                 <?php
-                echo $_SERVER['SERVER_NAME'];
+                echo $_SERVER['HTTP_HOST'];
                 echo $_SERVER['REQUEST_URI'];
                 ?>
             </span>
