@@ -379,16 +379,13 @@ fclose($fp);
             <p id="text"></p>
         </div>
         <div id="server">
-            <p>SERVER : 
-                <?php
-                echo $_SERVER['SERVER_NAME'];
-                echo $_SERVER['REQUEST_URI'];
-                echo 'PROTOCOL : '. $_SERVER['SERVER_PROTOCOL']."<br/>";
-                ?>
-                <br/>PROTOCOL : 
-                <?php
-                echo $_SERVER['SERVER_PROTOCOL'];
-                ?>
+            <p>
+                Last Modified : 
+                    <?php
+                    $mod = filemtime('img.csv');
+                    date_default_timezone_set('Asia/Tokyo');
+                    print "".date("r",$mod);
+                    ?>
             </p>
         </div>
         <ul class="mousedragscrollable">
