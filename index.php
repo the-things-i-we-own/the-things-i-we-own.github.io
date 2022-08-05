@@ -380,11 +380,8 @@ fclose($fp);
         </div>
         <div id="server">
             <p>
-                Last Modified : 
                     <?php
-                    $mod = filemtime('img.csv');
-                    date_default_timezone_set('Asia/Tokyo');
-                    print "".date("r",$mod);
+                    echo 'SERVER : '. $_SERVER['SERVER_NAME']."<br/>";
                     ?>
             </p>
         </div>
