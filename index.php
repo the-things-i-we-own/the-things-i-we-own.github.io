@@ -379,11 +379,15 @@ fclose($fp);
             <p id="text"></p>
         </div>
         <div id="server">
-            <p>
+            <p>SERVER : 
                 <?php
-                echo 'SERVER : ' $_SERVER['SERVER_NAME'];
-                echo $_SERVER['SERVER_PROTOCOL']"<br/>";
-                echo 'PROTOCOL : ' $_SERVER['SERVER_PROTOCOL'];
+                echo $_SERVER['SERVER_NAME'];
+                echo $_SERVER['REQUEST_URI'];
+                echo 'PROTOCOL : '. $_SERVER['SERVER_PROTOCOL']."<br/>";
+                ?>
+                <br/>PROTOCOL : 
+                <?php
+                echo $_SERVER['SERVER_PROTOCOL'];
                 ?>
             </p>
         </div>
