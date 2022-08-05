@@ -386,10 +386,10 @@ fclose($fp);
                 ?>
                 <br/>
                 <?php
-                    echo $_SERVER['SERVER_PROTOCOL'];
-                    echo $_SERVER['SERVER_ADDR'];
-                    echo $_SERVER['HTTPS'];
                     echo $_SERVER['SERVER_PORT'];
+                    echo $_SERVER['SERVER_PROTOCOL'];
+                    echo $_SERVER['HTTPS'];
+                    echo $_SERVER['SERVER_ADDR'];
                 ?>
             </p>
         </div>
