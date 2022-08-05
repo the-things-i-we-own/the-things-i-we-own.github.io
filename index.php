@@ -8,7 +8,7 @@ $img = (string)filter_input(INPUT_POST, 'img');
 $title = (string)filter_input(INPUT_POST, 'title');
 $text = (string)filter_input(INPUT_POST, 'text');
 
-$fp = fopen('images.csv', 'a+b');
+$fp = fopen('img.csv', 'a+b');
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     flock($fp, LOCK_EX);
     fputcsv($fp, [$org, $size, $img, $title, $text]);
@@ -59,7 +59,7 @@ fclose($fp);
 
     <link rel="stylesheet" href="https://creative-community.space/org/index.css" />
     <link rel="stylesheet" href="https://creative-community.space/org/searchBox.css" />
-    <link rel="stylesheet" href="images.css" />
+    <link rel="stylesheet" href="cover.css" />
     <style>
         :root {
             --text-color: red;
@@ -431,7 +431,7 @@ fclose($fp);
         $(function() {
             $("#about").load("about.php");
             $("#test").load("test/index.php");
-            $("#img").load("images.php");
+            $("#img").load("img.php");
         })
     </script>
 </body>

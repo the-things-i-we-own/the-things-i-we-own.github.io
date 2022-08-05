@@ -8,7 +8,7 @@ $img = (string)filter_input(INPUT_POST, 'img');
 $title = (string)filter_input(INPUT_POST, 'title');
 $text = (string)filter_input(INPUT_POST, 'text');
 
-$fp = fopen('images.csv', 'a+b');
+$fp = fopen('img.csv', 'a+b');
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     flock($fp, LOCK_EX);
     fputcsv($fp, [$org, $size, $img, $title, $text]);
@@ -49,10 +49,11 @@ fclose($fp);
             -webkit-flex-wrap: wrap-reverse;
             flex-wrap: wrap-reverse;
             list-style-type: none;
-        }
-        
-        #collection {
             padding: 0 0 2rem;
+        }
+
+        #collection h2 {
+            padding: 1rem 1rem 0.25rem;
         }
         
         #collection li {
@@ -101,6 +102,11 @@ fclose($fp);
             display: block;
         }
         
+        #collection .update {
+            color: var(--update-text);
+            padding: 0.25rem 1rem 1.25rem;
+        }
+        
         @media screen and (max-width: 750px) {
             #collection {
                 -webkit-justify-content: center;
@@ -112,6 +118,15 @@ fclose($fp);
 
 <body>
     <ol id="collection" class="org">
+        <h2>写真付きリスト</h2>
+        <p class="update">
+        Last Modified : 
+            <?php
+            $mod = filemtime('img.csv');
+            date_default_timezone_set('Asia/Tokyo');
+            print "".date("r",$mod);
+            ?>
+        </p>
         <?php if (!empty($rows)): ?>
         <?php foreach ($rows as $row): ?>
         <li class="list_item list_toggle" data-org="<?=h($row[0])?>">
