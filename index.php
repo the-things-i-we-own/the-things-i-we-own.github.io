@@ -382,7 +382,7 @@ fclose($fp);
             <p>
                 <?php
                 echo 'SERVER : ' $_SERVER['SERVER_NAME'];
-                echo . $_SERVER['SERVER_PROTOCOL']."<br/>";
+                echo $_SERVER['SERVER_PROTOCOL']"<br/>";
                 echo 'PROTOCOL : ' $_SERVER['SERVER_PROTOCOL'];
                 ?>
             </p>
