@@ -252,6 +252,10 @@ fclose($fp);
         #print {
             display: none;
         }
+
+        .mousedragscrollable .org {
+            min-height: 100%;
+        }
         
         @media screen and (max-width: 1250px) {
             #images {
