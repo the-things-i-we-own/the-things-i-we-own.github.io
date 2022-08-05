@@ -94,6 +94,7 @@ fclose($fp);
 <body>
     <ol id="about" class="org">
         <h2>このホームページについて</h2>
+        <br/>
         <p>挨拶文</p>
         <p>リストの区分について</p>
         <hr/>
