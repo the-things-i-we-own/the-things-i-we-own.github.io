@@ -7,9 +7,9 @@ https://creative-community.space/org/template/
 
 ## about.php
 ページタイトル・説明文・リンクを記述する
-## images.csv
+## img.csv
 カバービジュアル・画像付きリストに品目を追加
-## images.css
+## cover.css
 カバービジュアルのスタイリング
 ## about.csv
 絞り込みについての説明
