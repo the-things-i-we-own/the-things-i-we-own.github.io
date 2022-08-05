@@ -381,7 +381,6 @@ fclose($fp);
         <div id="server">
             <p>
                 <?php
-                    echo $_SERVER['HTTPS'];
                     echo $_SERVER['SERVER_NAME'];
                     echo $_SERVER['REQUEST_URI'];
                 ?>
@@ -389,6 +388,7 @@ fclose($fp);
                 <?php
                     echo $_SERVER['SERVER_PROTOCOL'];
                     echo $_SERVER['SERVER_ADDR'];
+                    echo $_SERVER['HTTPS'];
                 ?>
             </p>
         </div>
