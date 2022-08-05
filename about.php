@@ -65,7 +65,7 @@ fclose($fp);
         #about p a {
             display: inline-block;
             font-size: 75%;
-            margin: 0 0.25rem;
+            margin-left: 0.25rem;
             color: var(--about-a);
             text-decoration: var(--about-decoration);
         }
