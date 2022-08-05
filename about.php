@@ -119,7 +119,7 @@ fclose($fp);
         </li>
         <?php endif; ?>
         <br/>
-        <p>Links
+        <p>Links : 
             <a href="https://creative-community.space/org/" target="_blank">ORG</a>
             <a href="https://github.com/the-things-i-we-own" target="_blank">GitHub</a>
         </p>
