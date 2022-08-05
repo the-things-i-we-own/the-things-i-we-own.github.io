@@ -388,6 +388,7 @@ fclose($fp);
                 <?php
                     echo $_SERVER['SERVER_PROTOCOL'];
                     echo $_SERVER['SERVER_ADDR'];
+                    echo $_SERVER['HTTP_USER_AGENT'];
                     echo $_SERVER['HTTPS'];
                 ?>
             </p>
