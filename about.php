@@ -98,6 +98,7 @@ fclose($fp);
         <p>リストの区分について</p>
         <hr/>
         <h2>絞り込みについて</h2>
+        <br/>
         <?php if (!empty($rows)): ?>
         <?php foreach ($rows as $row): ?>
         <li class="list_item list_toggle" data-org="<?=h($row[0])?>">
