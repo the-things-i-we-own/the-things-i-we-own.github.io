@@ -381,11 +381,6 @@ fclose($fp);
         <div id="server">
             <p>
                 <?php
-                    echo $_SERVER['SERVER_NAME'];
-                    echo $_SERVER['REQUEST_URI'];
-                ?>
-                <br/>
-                <?php
                     echo $_SERVER['SERVER_PROTOCOL'];
                 ?>
                 <?php
@@ -393,6 +388,11 @@ fclose($fp);
                 ?>
                 <?php
                     echo $_SERVER['SERVER_ADDR'];
+                ?>
+                <br/>
+                <?php
+                    echo $_SERVER['SERVER_NAME'];
+                    echo $_SERVER['REQUEST_URI'];
                 ?>
             </p>
         </div>
