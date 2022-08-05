@@ -379,11 +379,15 @@ fclose($fp);
             <p id="text"></p>
         </div>
         <div id="server">
-            <p>SERVER :
-                    <?php
+            <p>
+                <?php
                     echo $_SERVER['SERVER_NAME'];
                     echo $_SERVER['REQUEST_URI'];
-                    ?>
+                ?>
+                <br/>
+                <?php
+                    echo $_SERVER['SERVER_PROTOCOL'];
+                ?>
             </p>
         </div>
         <ul class="mousedragscrollable">
