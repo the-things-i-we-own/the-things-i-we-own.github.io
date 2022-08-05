@@ -56,7 +56,7 @@ fclose($fp);
         #about p {
             font-size: 0.75rem;
             margin: 0;
-            padding: 0.5rem 0.5rem 0.5rem 1rem;
+            padding: 0.5rem 0;
             font-weight: 500;
             display: block;
             transform: scale(1, 1.25);
