@@ -132,13 +132,5 @@ fclose($fp);
         </li>
         <?php endif; ?>
     </ol>
-        <p class="update">
-        Last Modified : 
-            <?php
-            $mod = filemtime('img.csv');
-            date_default_timezone_set('Asia/Tokyo');
-            print "".date("r",$mod);
-            ?>
-        </p>
 </body>
 </html>

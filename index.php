@@ -380,11 +380,12 @@ fclose($fp);
         </div>
         <div id="server">
             <p>
-                <?php
-                echo 'IP : '. $_SERVER['REMOTE_ADDR']." | ";
-                echo 'PORT : '. $_SERVER['REMOTE_PORT']."<br/>";
-                echo ''. $_SERVER['HTTP_USER_AGENT'].".";
-                ?>
+                Last Modified : 
+                    <?php
+                    $mod = filemtime('img.csv');
+                    date_default_timezone_set('Asia/Tokyo');
+                    print "".date("r",$mod);
+                    ?>
             </p>
         </div>
         <ul class="mousedragscrollable">
