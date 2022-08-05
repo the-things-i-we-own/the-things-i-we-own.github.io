@@ -118,15 +118,6 @@ fclose($fp);
 
 <body>
     <ol id="collection" class="org">
-        <h2>写真付きリスト</h2>
-        <p class="update">
-        Last Modified : 
-            <?php
-            $mod = filemtime('img.csv');
-            date_default_timezone_set('Asia/Tokyo');
-            print "".date("r",$mod);
-            ?>
-        </p>
         <?php if (!empty($rows)): ?>
         <?php foreach ($rows as $row): ?>
         <li class="list_item list_toggle" data-org="<?=h($row[0])?>">
@@ -141,5 +132,13 @@ fclose($fp);
         </li>
         <?php endif; ?>
     </ol>
+        <p class="update">
+        Last Modified : 
+            <?php
+            $mod = filemtime('img.csv');
+            date_default_timezone_set('Asia/Tokyo');
+            print "".date("r",$mod);
+            ?>
+        </p>
 </body>
 </html>
