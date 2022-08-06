@@ -32,7 +32,6 @@ fclose($fp);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="format-detection" content="telephone=no">
     <meta name="author" content="creative-community.space">
-    <meta name="reply-to" content="___@email">
     <meta name="description" content="___">
 
     <meta property="og:title" content="___" />
@@ -53,8 +52,8 @@ fclose($fp);
     <script src="https://creative-community.space/coding/js/tone/jquery-ui.min.js"></script>
     <script src="https://creative-community.space/coding/js/tone/Tone.min.js"></script>
     <script src="https://creative-community.space/coding/js/tone/StartAudioContext.js"></script>
-    <script src="https://creative-community.space/org/searchBox.js"></script>
     <script src="https://creative-community.space/coding/js/mousedragscrollable/scrollable.js"></script>
+    <script src="https://creative-community.space/org/searchBox.js"></script>
     <script src="index.js"></script>
 
     <link rel="stylesheet" href="https://creative-community.space/org/index.css" />
