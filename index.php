@@ -58,6 +58,7 @@ fclose($fp);
 
     <link rel="stylesheet" href="https://creative-community.space/org/index.css" />
     <link rel="stylesheet" href="https://creative-community.space/org/searchBox.css" />
+    <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="cover.css" />
     <style>
         :root {
@@ -77,6 +78,7 @@ fclose($fp);
         #collection li p,
         form,
         .reset-button,
+        .collection p,
         marquee {
             font-family: "Courier New", Courier, monospace;
             transform: scale(1, 1.25);
@@ -85,7 +87,8 @@ fclose($fp);
         #greeting #text,
         #collection li p b,
         h1,
-        h2 {
+        h2,
+        .collection h2 {
             font-family: "Arial Narrow", Arial, sans-serif;
             font-weight: 500;
             font-stretch: condensed;

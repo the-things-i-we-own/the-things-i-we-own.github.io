@@ -19,6 +19,8 @@ https://creative-community.space/org/template/
 所有するものリスト用CSVファイルを出力するPHPファイル（必要なリスト用のファイルを複製）
 ## __/list.csv
 所有するものリスト用CSVファイル
+## index.css
+ホームページをスタイリングするCSS
 ## index.js
 ページの説明文／操作音を設定するジャバスクリプトファイル
 
