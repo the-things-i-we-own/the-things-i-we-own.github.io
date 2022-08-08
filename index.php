@@ -157,6 +157,7 @@ fclose($fp);
             height: 0;
             -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
+            max-width: 100vh;
         }
         
         #images .list_item {
