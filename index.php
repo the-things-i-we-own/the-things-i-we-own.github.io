@@ -81,7 +81,6 @@ fclose($fp);
         .collection p,
         marquee {
             font-family: "Courier New", Courier, monospace;
-            transform: scale(1, 1.25);
         }
         
         #greeting #text,
@@ -91,11 +90,6 @@ fclose($fp);
         .collection h2 {
             font-family: "Arial Narrow", Arial, sans-serif;
             font-weight: 500;
-            font-stretch: condensed;
-            font-variant: common-ligatures tabular-nums;
-            transform: scale(1, 1.1);
-            letter-spacing: -0.1rem;
-            word-spacing: -.1ch;
         }
         
         #about {
