@@ -308,7 +308,6 @@ fclose($fp);
 <body id="open">
 
     <header id="header">
-        <a class="_more" onclick="more()">?</a>
         <marquee id="marquee">
             ここをクリックすると、（）が所有するもの一覧が表示されます。
         </marquee>
@@ -371,9 +370,6 @@ fclose($fp);
                 </li>
                 <?php endif; ?>
             </ol>
-        </div>
-        <div id="greeting">
-            <p id="text"></p>
         </div>
         <div id="server">
             <p>
