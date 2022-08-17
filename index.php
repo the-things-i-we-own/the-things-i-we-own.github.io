@@ -63,15 +63,26 @@ fclose($fp);
     <style>
         :root {
             --text-color: red;
+            --text-family: "Courier New", Courier, monospace;
             --hover-color: blue;
             --border-style: 1px dashed green;
             --bg-color: yellow;
             --list-bg: transparent;
             --list-text: green;
+            --list-family: "Courier New", Courier, monospace;
             --org-text: blue;
             --org-bg: green;
             --org-border: solid 1px blue;
             --update-text: #fff;
+        }
+        
+        #greeting #text,
+        #collection li p b,
+        h1,
+        h2,
+        .collection h2 {
+            font-family: var(--text-family)
+            font-weight: 500;
         }
         
         #server p,
@@ -80,16 +91,7 @@ fclose($fp);
         .reset-button,
         .collection p,
         marquee {
-            font-family: "Courier New", Courier, monospace;
-        }
-        
-        #greeting #text,
-        #collection li p b,
-        h1,
-        h2,
-        .collection h2 {
-            font-family: "Arial Narrow", Arial, sans-serif;
-            font-weight: 500;
+            font-family: var(--list-family)
         }
         
         #about {
@@ -126,13 +128,8 @@ fclose($fp);
         
         .change .mousedragscrollable::-webkit-scrollbar-thumb,
         .change .mousedragscrollable li::-webkit-scrollbar-thumb {
-            background: #fff;
-            border: solid 2px red;
-        }
-        
-        .change .mousedragscrollable::-webkit-scrollbar-track,
-        .change .mousedragscrollable li::-webkit-scrollbar-track {
-            background: transparent;
+            background: var(--list-bg);
+            border: var(--border-style);
         }
         
         #cover {
@@ -408,17 +405,12 @@ fclose($fp);
     </footer>
 
     <script type="text/javascript ">
-        let btn = document.querySelector('#greeting');
         let marquee = document.querySelector('#marquee');
         let box = document.querySelector('#open');
 
         let btnToggleclass = function(el) {
             el.classList.toggle('change');
         }
-
-        btn.addEventListener('click', function() {
-            btnToggleclass(box);
-        }, false);
 
         marquee.addEventListener('click', function() {
             btnToggleclass(box);
