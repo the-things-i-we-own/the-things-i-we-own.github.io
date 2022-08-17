@@ -1,7 +1,6 @@
 # [ORG](https://github.com/the-things-i-we-own)
 
-## URL
-https://creative-community.space/org/template/
+## https://creative-community.space/org/template/
 
 ___
 
