@@ -119,7 +119,7 @@ fclose($fp);
         }
         
         #server p {
-            color: #fff;
+            color: var(--update-text);
         }
         
         #server:hover p {
