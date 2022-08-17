@@ -39,12 +39,12 @@ fclose($fp);
     <meta property="og:type" content="website" />
     <meta property="og:url" content="___" />
     <meta property="og:site_name" content="creative-community.space" />
-    <meta property="og:image" content="___" />
+    <meta property="og:image" content="https://creative-community.space/org/qr.png" />
     <meta property="og:locale" content="ja_JP" />
 
-    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@NLC_update" />
-    <meta name="twitter:image" content="___" />
+    <meta name="twitter:image" content="https://creative-community.space/org/qr.png" />
 
     <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
