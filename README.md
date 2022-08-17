@@ -7,7 +7,7 @@ https://creative-community.space/org/template/
 ___
 
 
-Template
+Download ZIP
 [the-things-i-we-own.github.io](https://github.com/the-things-i-we-own/the-things-i-we-own.github.io)
 
 Discussions
