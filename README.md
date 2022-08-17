@@ -1,5 +1,4 @@
-# org
-[https://github.com/the-things-i-we-own](https://github.com/the-things-i-we-own)
+# [ORG](https://github.com/the-things-i-we-own)
 
 ## URL
 https://creative-community.space/org/template/
