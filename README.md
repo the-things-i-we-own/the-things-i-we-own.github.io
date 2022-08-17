@@ -1,11 +1,11 @@
 # [ORG](https://github.com/the-things-i-we-own)
 
-## This Page : https://creative-community.space/org/template/
+## URL : https://creative-community.space/org/template/
 
 ___
 
 
-Download ZIP
+Code
 [the-things-i-we-own.github.io](https://github.com/the-things-i-we-own/the-things-i-we-own.github.io)
 
 Discussions
@@ -79,7 +79,7 @@ ___
 > 83行目：流れる文字・絞り込み・日記などの文字フォントを記述する
 > ※ フォントの記述方法は、[https://www.cssfontstack.com/](https://www.cssfontstack.com/) を参照
 
-
+__
 
 参考ツール
 
