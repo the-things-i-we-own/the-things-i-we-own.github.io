@@ -66,8 +66,6 @@ ___
 
 ## *CSS Text & Color*
 
-___
-
 色を指定
 > 64行目以降の色の名前を、[https://htmlcolorcodes.com/color-names/](https://htmlcolorcodes.com/color-names/) を参考に記述する
 > スクロールバーの色は、126行目 (background: カラーネーム;)／スクロールバーの囲い線は127行目（border: solid 2px カラーネーム;）
