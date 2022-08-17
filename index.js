@@ -19,15 +19,15 @@ $("#marquee").click(function(e) {
 
 $(".label").click(function(e) {
     let randNote = Math.floor(Math.random() * notes.length);
-    synth.triggerAttackRelease(notes[randNote], "2n");
+    synth.triggerAttackRelease(notes[randNote], "1");
 });
 
 $(".list_item img").hover(function() {
     let randNote = Math.floor(Math.random() * notes.length);
-    synth.triggerAttackRelease(notes[randNote], "4n");
+    synth.triggerAttackRelease(notes[randNote], "2n");
 });
 
 $(".list_toggle").hover(function() {
     let randNote = Math.floor(Math.random() * notes.length);
-    synth.triggerAttackRelease(notes[randNote], "8n");
+    synth.triggerAttackRelease(notes[randNote], "4n");
 });
