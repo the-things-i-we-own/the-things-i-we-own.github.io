@@ -2,8 +2,6 @@
 
 ## URL : https://creative-community.space/org/template/
 
-___
-
 
 Code
 [the-things-i-we-own.github.io](https://github.com/the-things-i-we-own/the-things-i-we-own.github.io)
@@ -51,7 +49,7 @@ ___
 ## index.js
 操作音を設定するジャバスクリプトファイル
 
-*　　
+___
 
 
 # index.php
