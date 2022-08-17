@@ -58,11 +58,13 @@ ___
 
 # index.php
 
-> header > title | meta 編集
+> header > title | meta (description, url) 
 > 
-> body > ._more | #marquee | #nav を編集
+> body > id="marquee" (流れる文字) | id="nav" (h1 : ページタイトル) 
 > 
-> body > .mousedragscrollable | script > $("#__").load("__/index.php"); を編集
+> 絞り込みカテゴリー | body > ol class="search-box" | CSS > カテゴリー名:checked~label
+> 
+> リストの埋め込み | body > class="mousedragscrollable" | script > $("#__").load("__/index.php");
 > 
 
 
