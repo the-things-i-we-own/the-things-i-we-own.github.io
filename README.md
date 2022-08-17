@@ -77,7 +77,7 @@ ___
 > 83行目：流れる文字・絞り込み・日記などの文字フォントを記述する
 > ※ フォントの記述方法は、[https://www.cssfontstack.com/](https://www.cssfontstack.com/) を参照
 
-__
+___
 
 参考ツール
 
