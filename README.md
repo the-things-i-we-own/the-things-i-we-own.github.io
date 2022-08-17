@@ -67,12 +67,12 @@ ___
 ## *CSS Text & Color*
 
 色を指定
-> 64行目以降の色の名前を、[https://htmlcolorcodes.com/color-names/](https://htmlcolorcodes.com/color-names/) を参考に記述する
-> スクロールバーの色は、126行目 (background: カラーネーム;)／スクロールバーの囲い線は127行目（border: solid 2px カラーネーム;）
+> index.php内の header > style :root のカラーネームを、[https://htmlcolorcodes.com/color-names/](https://htmlcolorcodes.com/color-names/) を参考に編集
+> スクロールバーの色を指定 | index.php内の header > style ::-webkit-scrollbar-thumb (background: カラーネーム;)／囲い線（border: solid 2px カラーネーム;）
 
 フォントの指定
-> 91行目：ページタイトル・サブタイトルなどの文字フォントを記述する
-> 83行目：流れる文字・絞り込み・日記などの文字フォントを記述する
+> --text-family：ページタイトル・サブタイトルなどの文字フォントを指定
+> --list-family：流れる文字・絞り込み・リストなどの文字フォントを指定
 > ※ フォントの記述方法は、[https://www.cssfontstack.com/](https://www.cssfontstack.com/) を参照
 
 ___
