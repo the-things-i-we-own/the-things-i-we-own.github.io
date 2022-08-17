@@ -67,12 +67,16 @@ ___
 ## *CSS Text & Color*
 
 色を指定
-> index.php内の header > style :root のカラーネームを、[https://htmlcolorcodes.com/color-names/](https://htmlcolorcodes.com/color-names/) を参考に編集
-> スクロールバーの色を指定 | index.php内の header > style ::-webkit-scrollbar-thumb (background: カラーネーム;)／囲い線（border: solid 2px カラーネーム;）
+> ページ背景・文字などの色を指定 | index.php内の header > style :root のカラーネームを編集
+> 
+> カラーネームは、[https://htmlcolorcodes.com/color-names/](https://htmlcolorcodes.com/color-names/) を参照
+
 
 フォントの指定
 > --text-family：ページタイトル・サブタイトルなどの文字フォントを指定
+> 
 > --list-family：流れる文字・絞り込み・リストなどの文字フォントを指定
+> 
 > ※ フォントの記述方法は、[https://www.cssfontstack.com/](https://www.cssfontstack.com/) を参照
 
 ___
