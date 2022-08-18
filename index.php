@@ -108,13 +108,7 @@ fclose($fp);
             display: block;
         }
 
-        #bought:checked~label,
-        #gift:checked~label,
-        #free:checked~label,
-        #made:checked~label,
-        #collaborations:checked~label,
-        #other:checked~label,
-        #sale:checked~label {
+        input:checked~label {
             text-decoration: double underline;
         }
         
