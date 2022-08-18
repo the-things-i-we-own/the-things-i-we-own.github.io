@@ -81,7 +81,7 @@ fclose($fp);
         h1,
         h2,
         .collection h2 {
-            font-family: var(--text-family)
+            font-family: var(--text-family);
             font-weight: 500;
         }
         
@@ -91,7 +91,7 @@ fclose($fp);
         .reset-button,
         .collection p,
         marquee {
-            font-family: var(--list-family)
+            font-family: var(--list-family);
         }
         
         #about {
