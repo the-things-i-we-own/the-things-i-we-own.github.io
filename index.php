@@ -63,7 +63,7 @@ fclose($fp);
     <style>
         :root {
             --text-color: red;
-            --text-family: "Courier New", Courier, monospace;
+            --text-family: "Arial Narrow", Arial, sans-serif;
             --hover-color: blue;
             --border-style: 1px dashed green;
             --bg-color: yellow;
