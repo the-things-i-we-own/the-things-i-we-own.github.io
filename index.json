@@ -1,19 +1,83 @@
 {
   "title" : "The Things I (We) Own",
-  "description" : "このページに、私（わたしたち）が所有するもの を カテゴリー・状態 ごとに 整理して記録します。",
+  "description" : "このページに、私（わたしたち）が所有するもの を 用途・入手経路 ごとに 整理して記録します。",
   "author" : "creative-community.space",
   "email" : "pehu@creative-community.space",
   "type" : "website",
   "twitter" : "@pe_hu_",
   "card" : "summary",
-  "src" : "image.png",
+  "src" : "img/image.png",
   "icon" : "https://creative-community.space/org/icon.png",
 
-  "links" : [
+  "org" : [
     {
-      "name" : "↩︎",
-      "title" : "ORG",
-      "url" : "../"
+      "id" : "bought",
+      "name" : "bought",
+      "info" : "購入物、など"
+    },
+    {
+      "id" : "gift",
+      "name" : "gift",
+      "info" : "頂き物、など"
+    },
+    {
+      "id" : "free",
+      "name" : "free or found",
+      "info" : "拾得物、など"
+    },
+    {
+      "id" : "made",
+      "name" : "made",
+      "info" : "制作物、出来たもの、など"
+    },
+    {
+      "id" : "other",
+      "name" : "other",
+      "info" : "その他、不用品、など"
+    },
+    {
+      "id" : "sale",
+      "name" : "$$$ FOR SALE $$$",
+      "info" : "販売品、有料貸出品、など"
+    }
+  ],
+
+  "things" : [
+    {
+      "id" : "computer",
+      "name" : "PC・周辺機器"
+    },
+    {
+      "id" : "furniture",
+      "name" : "什器・家具"
+    },
+    {
+      "id" : "goods",
+      "name" : "生活・日用品"
+    },
+    {
+      "id" : "listening",
+      "name" : "音響・録音機材"
+    },
+    {
+      "id" : "printing",
+      "name" : "印刷機・用紙"
+    },
+    {
+      "id" : "shopping",
+      "name" : "物販・梱包用品"
+    },
+    {
+      "id" : "stationary",
+      "name" : "文房具・工具"
+    },
+    {
+      "id" : "viewing",
+      "name" : "映像・撮影機材"
+    },
+    {
+      "id" : "www",
+      "name" : "ウェブサービス・デジタルコンテンツ"
     }
   ]
 }

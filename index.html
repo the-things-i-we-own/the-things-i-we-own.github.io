@@ -1,25 +1,48 @@
 <!DOCTYPE html>
-<html lang="ja" onClick="counter(this)">
+<html lang="ja">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="format-detection" content="telephone=no" />
+    <meta name="format-detection" content="telephone=no">
+    <script src="template/index.js" async></script>
+    <link rel="stylesheet" type="text/css" href="template/index.css">
+    <style>
+        header,
+        #things {
+            border-bottom: dotted #ddd 1px;
+        }
+
+        #things::-webkit-scrollbar-thumb {
+            border-radius: 2rem;
+            background: #ddd;
+        }
+    </style>
 </head>
 
 <body>
-    <nav>
-        <input type="button" id="menuBtn" onclick="changeHidden()" value="?">
+    <header>
+        <input type="button" id="indexBtn" value="?">
         <h1 id="title"></h1>
-        <h2 id="description"></h2>
-    </nav>
+        <p id="description"></p>
+        <nav>
+            <input type="radio" name="org" id="all" value="all" checked>
+            <label for="all">Index</label>
+        </nav>
+    </header>
     <main id="things">
-        <ul>
-            <li></li>
-        </ul>
-        <ul>
-            <li></li>
+        <ul id="about">
+            <p>
+                上の項目を選択すると、下記の分類ごとに所有するものを絞り込むことができます。
+            </p>
         </ul>
     </main>
+    <footer>
+        <p>
+            Author <b id="author"></b><br />
+            Email <a id="email"></a>
+        </p>
+    </footer>
 </body>
+
 </html>
