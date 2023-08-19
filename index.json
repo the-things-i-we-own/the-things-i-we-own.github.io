@@ -1,0 +1,19 @@
+{
+  "title" : "The Things I (We) Own",
+  "description" : "このページに、私（わたしたち）が所有するもの を カテゴリー・状態 ごとに 整理して記録します。",
+  "author" : "creative-community.space",
+  "email" : "pehu@creative-community.space",
+  "type" : "website",
+  "twitter" : "@pe_hu_",
+  "card" : "summary",
+  "src" : "image.png",
+  "icon" : "../icon.png",
+
+  "links" : [
+    {
+      "name" : "↩︎",
+      "title" : "ORG",
+      "url" : "../"
+    }
+  ]
+}

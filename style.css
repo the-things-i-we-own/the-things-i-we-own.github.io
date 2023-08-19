@@ -1,0 +1,69 @@
+@font-face {
+  font-family: "ipag";
+  src: url("https://creative-community.space/ver/font/ipag.ttc");
+}
+
+body,
+#filter select {
+  font-family: "Arial Narrow", "Yu Gothic", Arial, sans-serif;
+}
+
+#log li p u,
+main nav {
+  font-family: "ipag", monospace;
+}
+
+#result,
+#log li p b {
+  font-family: 'Times New Roman', serif;
+  font-weight: 500;
+  font-stretch: condensed;
+  font-variant: common-ligatures tabular-nums;
+  transform: scale(1, 1.1);
+  letter-spacing: -0.1rem;
+  word-spacing: -.1ch;
+}
+
+.list [data-status="lost"] {
+  text-decoration: line-through;
+}
+
+html,
+body {
+  color: #000;
+  background: #fff;
+}
+
+#filter summary,
+#filter select {
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+}
+
+a,
+#readme {
+  color: #fff;
+  background: #333;
+}
+
+.list,
+#readme {
+  font-size: 111%;
+}
+
+hr {
+  margin: 1rem;
+}
+
+@media screen and (max-width: 550px) {
+  .list {
+    font-size: 125%;
+  }
+
+  hr {
+    margin: 2.5vw;
+  }
+}
