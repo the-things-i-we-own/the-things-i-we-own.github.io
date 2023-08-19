@@ -1,0 +1,15 @@
+{
+    "id" : "printing",
+    "value" : "印刷機・用紙",
+  
+    "things" : [
+      {
+        "org" : "___",
+        "type" : "___",
+        "name" : "___",
+        "description" : "___",
+        "url" : "___"
+      }
+    ]
+  }
+  

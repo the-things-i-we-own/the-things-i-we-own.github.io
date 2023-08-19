@@ -1,0 +1,15 @@
+{
+    "id" : "stationary",
+    "value" : "文房具・工具",
+  
+    "things" : [
+      {
+        "org" : "___",
+        "type" : "___",
+        "name" : "___",
+        "description" : "___",
+        "url" : "___"
+      }
+    ]
+  }
+  

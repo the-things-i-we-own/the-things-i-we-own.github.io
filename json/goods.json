@@ -1,0 +1,15 @@
+{
+    "id" : "goods",
+    "value" : "生活・日用品",
+  
+    "things" : [
+      {
+        "org" : "___",
+        "type" : "___",
+        "name" : "___",
+        "description" : "___",
+        "url" : "___"
+      }
+    ]
+  }
+  

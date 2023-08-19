@@ -1,0 +1,247 @@
+{
+    "id" : "computer",
+    "value" : "PC・周辺機器",
+  
+    "things" : [
+      {
+        "org" : "bought",
+        "type" : "Mac",
+        "name" : "Mac mini (2018)",
+        "description" : "[UR-4.5-TK] 3 GHz 6コアIntel Core i5 | 8 GB 2667 MHz DDR4",
+        "url" : "https://support.apple.com/kb/SP782?locale=ja_JP"
+      },
+      {
+        "org" : "free",
+        "type" : "I-O DATA EX-LD321DB",
+        "name" : "31.5型 ディスプレイ",
+        "description" : "[UR-4.5-TK] 広視野角ADSパネル HDMI×2 DisplayPort",
+        "url" : "https://www.iodata.jp/product/lcd/wide/ex-ld321db/"
+      },
+      {
+        "org" : "___",
+        "type" : "___",
+        "name" : "___",
+        "description" : "___",
+        "url" : "___"
+      },
+      {
+        "org" : "___",
+        "type" : "___",
+        "name" : "___",
+        "description" : "___",
+        "url" : "___"
+      },
+      {
+        "org" : "___",
+        "type" : "___",
+        "name" : "___",
+        "description" : "___",
+        "url" : "___"
+      },
+      {
+        "org" : "___",
+        "type" : "___",
+        "name" : "___",
+        "description" : "___",
+        "url" : "___"
+      },
+      {
+        "org" : "___",
+        "type" : "___",
+        "name" : "___",
+        "description" : "___",
+        "url" : "___"
+      },
+      {
+        "org" : "___",
+        "type" : "___",
+        "name" : "___",
+        "description" : "___",
+        "url" : "___"
+      },
+      {
+        "org" : "___",
+        "type" : "___",
+        "name" : "___",
+        "description" : "___",
+        "url" : "___"
+      },
+      {
+        "org" : "___",
+        "type" : "___",
+        "name" : "___",
+        "description" : "___",
+        "url" : "___"
+      },
+      {
+        "org" : "___",
+        "type" : "___",
+        "name" : "___",
+        "description" : "___",
+        "url" : "___"
+      },
+      {
+        "org" : "___",
+        "type" : "___",
+        "name" : "___",
+        "description" : "___",
+        "url" : "___"
+      },
+      {
+        "org" : "___",
+        "type" : "___",
+        "name" : "___",
+        "description" : "___",
+        "url" : "___"
+      },
+      {
+        "org" : "___",
+        "type" : "___",
+        "name" : "___",
+        "description" : "___",
+        "url" : "___"
+      },
+      {
+        "org" : "___",
+        "type" : "___",
+        "name" : "___",
+        "description" : "___",
+        "url" : "___"
+      },
+      {
+        "org" : "___",
+        "type" : "___",
+        "name" : "___",
+        "description" : "___",
+        "url" : "___"
+      },
+      {
+        "org" : "___",
+        "type" : "___",
+        "name" : "___",
+        "description" : "___",
+        "url" : "___"
+      },
+      {
+        "org" : "___",
+        "type" : "___",
+        "name" : "___",
+        "description" : "___",
+        "url" : "___"
+      },
+      {
+        "org" : "___",
+        "type" : "___",
+        "name" : "___",
+        "description" : "___",
+        "url" : "___"
+      },
+      {
+        "org" : "___",
+        "type" : "___",
+        "name" : "___",
+        "description" : "___",
+        "url" : "___"
+      },
+      {
+        "org" : "___",
+        "type" : "___",
+        "name" : "___",
+        "description" : "___",
+        "url" : "___"
+      },
+      {
+        "org" : "___",
+        "type" : "___",
+        "name" : "___",
+        "description" : "___",
+        "url" : "___"
+      },
+      {
+        "org" : "___",
+        "type" : "___",
+        "name" : "___",
+        "description" : "___",
+        "url" : "___"
+      },
+      {
+        "org" : "___",
+        "type" : "___",
+        "name" : "___",
+        "description" : "___",
+        "url" : "___"
+      },
+      {
+        "org" : "___",
+        "type" : "___",
+        "name" : "___",
+        "description" : "___",
+        "url" : "___"
+      },
+      {
+        "org" : "free",
+        "type" : "HIDISC microSDXC 128GB CLASS10 UHS-1",
+        "name" : "microSDXC",
+        "description" : "[UR-DK] for LG 360 CAM",
+        "url" : "___"
+      },
+      {
+        "org" : "bought",
+        "type" : "SanDisk 64GB microSD Extreme PRO microSDXC A2",
+        "name" : "microSD",
+        "description" : "[UR-4.5-TK] for GoPro HERO7 Black
+        ",
+        "url" : "___"
+      },
+      {
+        "org" : "bought",
+        "type" : "iPad (第6世代)",
+        "name" : "iOS",
+        "description" : "[KAHM] 組み込み型M10コプロセッサ Wi-Fiモデル | 32GB",
+        "url" : "___"
+      },
+      {
+        "org" : "bought",
+        "type" : "iPod touch（第7世代）",
+        "name" : "iOS",
+        "description" : "[UR] A10 Fusionチップ | (PRODUCT)RED™ | 32GB",
+        "url" : "___"
+      },
+      {
+        "org" : "free",
+        "type" : "MacBook Pro (2017)",
+        "name" : "Mac",
+        "description" : "[UR] 2.3GHzデュアルコアIntel Core i5 | 13-inch, Two Thunderbolt 3 ports",
+        "url" : "___"
+      },
+      {
+        "org" : "bought",
+        "type" : "JAMJAKE iPad ペンシル",
+        "name" : "スタイラスペン",
+        "description" : "[KAHM]",
+        "url" : "___"
+      },
+      {
+        "org" : "bought",
+        "type" : "400-MA095",
+        "name" : "エアマウス",
+        "description" : "[UR-4.5-TK] プレゼンテーションマウス・空中マウス・ワイヤレスプレゼンター・ジャイロ",
+        "url" : "___"
+      },
+      {
+        "org" : "bought",
+        "type" : "Google Chromecast",
+        "name" : "メディアストリーミング端末",
+        "description" : "[UR-7.5] 第三世代 2K対応 チャコール GA00439-JP",
+        "url" : "___"
+      },
+      {
+        "org" : "free",
+        "type" : "HP 14a-nd0000AU",
+        "name" : "Chromebook",
+        "description" : "[UR-DK] AMD 3015Ce モバイル・プロセッサー | 14.0インチワイド・IPSタッチディスプレイ | 4GB オンボード | 64GB eMMC",
+        "url" : "___"
+      }
+    ]
+  }
+  

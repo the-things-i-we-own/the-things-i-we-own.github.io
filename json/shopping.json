@@ -1,0 +1,15 @@
+{
+    "id" : "shopping",
+    "value" : "物販・梱包用品",
+  
+    "things" : [
+      {
+        "org" : "___",
+        "type" : "___",
+        "name" : "___",
+        "description" : "___",
+        "url" : "___"
+      }
+    ]
+  }
+  

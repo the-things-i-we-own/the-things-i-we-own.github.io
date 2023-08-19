@@ -6,7 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="format-detection" content="telephone=no">
     <script src="template/index.js" async></script>
-    <link rel="stylesheet" type="text/css" href="template/index.css">
+    <script src="template/things.js"></script>
+    <script type="text/javascript">
+        document.addEventListener('readystatechange', event => {
+            if (event.target.readyState === 'interactive') {
+                thingsJSON('json/computer.json');
+                thingsJSON('json/furniture.json');
+                thingsJSON('json/goods.json');
+                thingsJSON('json/listening.json');
+                thingsJSON('json/printing.json');
+                thingsJSON('json/shopping.json');
+                thingsJSON('json/stationary.json');
+                thingsJSON('json/viewing.json');
+                thingsJSON('json/www.json');
+            }
+        });
+    </script>
+    <link rel="stylesheet" type="text/css" href="template/style.css">
     <style>
         header,
         #things {
@@ -17,6 +33,32 @@
             border-radius: 2rem;
             background: #ddd;
         }
+
+        input[type="button"] {
+            color: #000;
+        }
+
+        input[type="radio"]+label:hover {
+            text-decoration: #000 underline double;
+        }
+
+        nav label:not(:first-of-type)::before {
+            content: "|";
+            color: #000;
+            font-weight: 900;
+            margin: 0 0.5rem;
+        }
+
+        input[type="radio"]:not(:checked)+label {
+            color: #ddd;
+        }
+
+        #things ul u {
+            display: block;
+            border: solid 1px;
+            padding: 0 0.25rem;
+            text-decoration: none;
+        }
     </style>
 </head>
 
@@ -25,7 +67,7 @@
         <input type="button" id="indexBtn" value="?">
         <h1 id="title"></h1>
         <p id="description"></p>
-        <nav>
+        <nav id="org">
             <input type="radio" name="org" id="all" value="all" checked>
             <label for="all">Index</label>
         </nav>
@@ -43,6 +85,7 @@
             Email <a id="email"></a>
         </p>
     </footer>
+    <script src="template/org.js"></script>
 </body>
 
 </html>

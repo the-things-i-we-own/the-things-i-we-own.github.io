@@ -1,0 +1,15 @@
+{
+    "id" : "furniture",
+    "value" : "什器・家具",
+  
+    "things" : [
+      {
+        "org" : "___",
+        "type" : "___",
+        "name" : "___",
+        "description" : "___",
+        "url" : "___"
+      }
+    ]
+  }
+  

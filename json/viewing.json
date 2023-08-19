@@ -1,0 +1,15 @@
+{
+    "id" : "viewing",
+    "value" : "映像・撮影機材",
+  
+    "things" : [
+      {
+        "org" : "___",
+        "type" : "___",
+        "name" : "___",
+        "description" : "___",
+        "url" : "___"
+      }
+    ]
+  }
+  

@@ -40,44 +40,5 @@
       "name" : "$$$ FOR SALE $$$",
       "info" : "販売品、有料貸出品、など"
     }
-  ],
-
-  "things" : [
-    {
-      "id" : "computer",
-      "name" : "PC・周辺機器"
-    },
-    {
-      "id" : "furniture",
-      "name" : "什器・家具"
-    },
-    {
-      "id" : "goods",
-      "name" : "生活・日用品"
-    },
-    {
-      "id" : "listening",
-      "name" : "音響・録音機材"
-    },
-    {
-      "id" : "printing",
-      "name" : "印刷機・用紙"
-    },
-    {
-      "id" : "shopping",
-      "name" : "物販・梱包用品"
-    },
-    {
-      "id" : "stationary",
-      "name" : "文房具・工具"
-    },
-    {
-      "id" : "viewing",
-      "name" : "映像・撮影機材"
-    },
-    {
-      "id" : "www",
-      "name" : "ウェブサービス・デジタルコンテンツ"
-    }
   ]
 }
