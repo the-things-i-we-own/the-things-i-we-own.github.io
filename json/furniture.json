@@ -18,31 +18,38 @@
         "url" : "___"
       },
       {
+        "org" : "other",
+        "name" : "単管棚",
+        "type" : "棚/収納",
+        "description" : "[UR-7.5-TK] 2段 骨組み：単管 | 天板：板,すのこ",
+        "url" : "___"
+      },
+      {
+        "org" : "other",
+        "name" : "単管棚",
+        "type" : "/棚/収納",
+        "description" : "[UR-4.5-TK] 2段 骨組み：単管 | 天板：",
+        "url" : "___"
+      },
+      {
         "org" : "gift",
         "name" : "可動式作業机／棚（白）",
         "type" : "机/収納",
-        "description" : "[UR-4.5-WW/7.5-WW] 3段収納＋机 ×2",
+        "description" : "[UR-4.5-WW/7.5-WW]",
         "url" : "___"
       },
       {
         "org" : "free",
         "name" : "可動式木製箱（白）",
         "type" : "台/収納",
-        "description" : "[UR-D-W/E-W] x",
+        "description" : "[UR-D-W x1 | UE-E-W x]",
         "url" : "___"
       },
       {
         "org" : "bought",
         "name" : "メタルラック",
         "type" : "___",
-        "description" : "___",
-        "url" : "___"
-      },
-      {
-        "org" : "___",
-        "name" : "___",
-        "type" : "___",
-        "description" : "___",
+        "description" : "[UR-4.5 |KAHM]",
         "url" : "___"
       },
       {
