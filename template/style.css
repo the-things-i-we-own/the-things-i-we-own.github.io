@@ -143,9 +143,9 @@ h1,
     max-width: 350px;
 }
 
-@media (orientation: portrait) {
+@media screen and (max-width: 550px) {
     html {
-        font-size: 3.5vw;
+        font-size: 4vw;
     }
 
     #title {
@@ -161,5 +161,6 @@ h1,
         overflow-x: auto;
         scroll-snap-type: x proximity;
         height: calc(100vh - 25vw);
+        max-height: -webkit-fill-available;
     }
 }

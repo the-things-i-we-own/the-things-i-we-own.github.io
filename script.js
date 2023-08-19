@@ -1,7 +1,17 @@
 'use strict'
 
 document.addEventListener('readystatechange', event => {
-    if (event.target.readyState === 'complete') {
+    if (event.target.readyState === 'interactive') {
+        thingsJSON('json/furniture.json');
+        thingsJSON('json/goods.json');
+        thingsJSON('json/listening.json');
+        thingsJSON('json/printing.json');
+        thingsJSON('json/shopping.json');
+        thingsJSON('json/stationary.json');
+        thingsJSON('json/viewing.json');
+        thingsJSON('json/computer.json');
+        thingsJSON('json/www.json');
+    } else if (event.target.readyState === 'complete') {
         let targets = document.querySelectorAll("#things ul li")
         let filter = document.querySelectorAll('#org input[type="radio"]')
         if (filter) {

@@ -7,26 +7,14 @@
     <meta name="format-detection" content="telephone=no">
     <script src="template/index.js" async></script>
     <script src="template/things.js"></script>
-    <script type="text/javascript">
-        document.addEventListener('readystatechange', event => {
-            if (event.target.readyState === 'interactive') {
-                thingsJSON('json/computer.json');
-                thingsJSON('json/furniture.json');
-                thingsJSON('json/goods.json');
-                thingsJSON('json/listening.json');
-                thingsJSON('json/printing.json');
-                thingsJSON('json/shopping.json');
-                thingsJSON('json/stationary.json');
-                thingsJSON('json/viewing.json');
-                thingsJSON('json/www.json');
-            }
-        });
-    </script>
     <link rel="stylesheet" type="text/css" href="template/style.css">
     <style>
-        header,
-        #things {
+        header {
             border-bottom: dotted #ddd 1px;
+        }
+
+        footer {
+            border-top: dotted #ddd 1px;
         }
 
         #things::-webkit-scrollbar-thumb {
@@ -79,13 +67,15 @@
             </p>
         </ul>
     </main>
-    <footer>
-        <p>
-            Author <b id="author"></b><br />
-            Email <a id="email"></a>
-        </p>
-    </footer>
-    <script src="template/org.js"></script>
+    <main hidden>
+        <footer>
+            <p>
+                Author <b id="author"></b><br />
+                Email <a id="email"></a>
+            </p>
+        </footer>
+    </main>
+    <script src="script.js"></script>
 </body>
 
 </html>
