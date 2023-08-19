@@ -13,32 +13,27 @@
     {
       "id" : "bought",
       "name" : "bought",
-      "info" : "購入物、など"
+      "info" : "購入物"
     },
     {
       "id" : "gift",
       "name" : "gift",
-      "info" : "頂き物、など"
+      "info" : "頂き物"
     },
     {
       "id" : "free",
       "name" : "free or found",
-      "info" : "拾得物、など"
-    },
-    {
-      "id" : "made",
-      "name" : "made",
-      "info" : "制作物、出来たもの、など"
+      "info" : "拾得物"
     },
     {
       "id" : "other",
       "name" : "other",
-      "info" : "その他、不用品、など"
+      "info" : "その他、制作物、出来たものなど"
     },
     {
       "id" : "sale",
       "name" : "$$$ FOR SALE $$$",
-      "info" : "販売品、有料貸出品、など"
+      "info" : "販売品、有料貸出品など"
     }
   ]
 }
