@@ -5,8 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="format-detection" content="telephone=no">
-    <script src="template/index.js" async></script>
+    <script src="template/index.js" defer></script>
     <script src="template/things.js"></script>
+    <script>
+        thingsJSON('json/furniture.json');
+        thingsJSON('json/goods.json');
+        thingsJSON('json/printing.json');
+        thingsJSON('json/shopping.json');
+        thingsJSON('json/listening.json');
+        thingsJSON('json/viewing.json');
+        thingsJSON('json/stationary.json');
+        thingsJSON('json/computer.json');
+        thingsJSON('json/www.json');
+    </script>
     <link rel="stylesheet" type="text/css" href="template/style.css">
     <style>
         header {
@@ -52,7 +63,6 @@
 
 <body>
     <header>
-        <input type="button" id="indexBtn" value="?">
         <h1 id="title"></h1>
         <p id="description"></p>
         <nav id="org">

@@ -4,10 +4,353 @@
   
     "things" : [
       {
-        "org" : "___",
-        "type" : "___",
-        "name" : "___",
-        "description" : "___",
+        "org" : "other",
+        "name" : "三菱UFJ銀行",
+        "type" : "口座",
+        "description" : "ペフメインバンク",
+        "url" : "___"
+      },
+      {
+        "org" : "gift",
+        "name" : "Square 磁気カードリーダー",
+        "type" : "電子決済",
+        "description" : "[UR-4.5-WW]",
+        "url" : "___"
+      },
+      {
+        "org" : "gift",
+        "name" : "Square Bluetoothカードリーダー",
+        "type" : "電子決済",
+        "description" : "[UR-4.5-WW]",
+        "url" : "___"
+      },
+      {
+        "org" : "other",
+        "name" : "PayPay銀行",
+        "type" : "口座",
+        "description" : "電子決済用口座",
+        "url" : "___"
+      },
+      {
+        "org" : "other",
+        "name" : "PayPay QRコード",
+        "type" : "電子決済",
+        "description" : "[UR-4.5-WW]",
+        "url" : "___"
+      },
+      {
+        "org" : "bought",
+        "name" : "キャッシュトレー",
+        "type" : "Galaxy",
+        "description" : "[UR-4.5-WW]",
+        "url" : "___"
+      },
+      {
+        "org" : "bought",
+        "name" : "CARL MR-2000",
+        "type" : "決済",
+        "description" : "[UR-4.5-WW] Mini Reji コイン専用コンパクトレジスター",
+        "url" : "___"
+      },
+      {
+        "org" : "bought",
+        "name" : "コインケース",
+        "type" : "決済",
+        "description" : "[UR-4.5-WW]",
+        "url" : "___"
+      },
+      {
+        "org" : "bought",
+        "name" : "ウエストポーチ",
+        "type" : "決済",
+        "description" : "[UR-4.5-WW]",
+        "url" : "___"
+      },
+      {
+        "org" : "bought",
+        "name" : "納品書",
+        "type" : "書類",
+        "description" : "[UR-4.5-WW] KOKUYO ウ-367-N ウ-341-N",
+        "url" : "___"
+      },
+      {
+        "org" : "bought",
+        "name" : "給与支払明細書",
+        "type" : "書類",
+        "description" : "[UR-4.5-WW]",
+        "url" : "___"
+      },
+      {
+        "org" : "bought",
+        "name" : "発送用厚さ測定定規",
+        "type" : "定規",
+        "description" : "[UR-4.5-WW] 厚さ1cm,2cm,2.5cm,3cm計測用",
+        "url" : "___"
+      },
+      {
+        "org" : "other",
+        "name" : "国際郵便料金表",
+        "type" : "印刷物",
+        "description" : "[UR-4.5-WW]",
+        "url" : "___"
+      },
+      {
+        "org" : "gift",
+        "name" : "ラゲッジスケール",
+        "type" : "はかり",
+        "description" : "[UR-4.5-WW] 吊り下げ式電子スケール MAX50kg",
+        "url" : "___"
+      },
+      {
+        "org" : "gift",
+        "name" : "日本製ラベル",
+        "type" : "ステッカー",
+        "description" : "[UR-4.5-WW] HEIKOタックラベル 6x20mm",
+        "url" : "___"
+      },
+      {
+        "org" : "gift",
+        "name" : "新発売ラベル",
+        "type" : "ステッカー",
+        "description" : "[UR-4.5-WW] HEIKOタックラベル 16x36mm",
+        "url" : "___"
+      },
+      {
+        "org" : "gift",
+        "name" : "自家製ラベル",
+        "type" : "ステッカー",
+        "description" : "[UR-4.5-WW] HEIKOタックラベル 11x32mm",
+        "url" : "___"
+      },
+      {
+        "org" : "gift",
+        "name" : "アルファベットステッカー",
+        "type" : "ステッカー",
+        "description" : "[UR-4.5-WW] www.mylittleshoebox.com 黄緑色　四角型",
+        "url" : "___"
+      },
+      {
+        "org" : "gift",
+        "name" : "ナンバーステッカー",
+        "type" : "ステッカー",
+        "description" : "[UR-4.5-WW] エーワンラベルシール 9mm 丸型",
+        "url" : "___"
+      },
+      {
+        "org" : "gift",
+        "name" : "ひらがなステッカー",
+        "type" : "ステッカー",
+        "description" : "[UR-4.5-WW] DECAdry　白色",
+        "url" : "___"
+      },
+      {
+        "org" : "gift",
+        "name" : "Best Wishesラベル金",
+        "type" : "ステッカー",
+        "description" : "[UR-4.5-WW] HEIKOギフトシール 22x30mm",
+        "url" : "___"
+      },
+      {
+        "org" : "gift",
+        "name" : "Best Wishesラベル銀",
+        "type" : "ステッカー",
+        "description" : "[UR-4.5-WW] HEIKOギフトシール 22x30mm",
+        "url" : "___"
+      },
+      {
+        "org" : "gift",
+        "name" : "Thank youラベル",
+        "type" : "ステッカー",
+        "description" : "[UR-4.5-WW]",
+        "url" : "___"
+      },
+      {
+        "org" : "free",
+        "name" : "クラフト封筒",
+        "type" : "長形1号",
+        "description" : "[UR-4.5-WW] A4サイズ対応(二つ折り)",
+        "url" : "___"
+      },
+      {
+        "org" : "free",
+        "name" : "クラフト封筒",
+        "type" : "長形3号",
+        "description" : "[UR-4.5-WW] A4サイズ対応(三つ折り)",
+        "url" : "___"
+      },
+      {
+        "org" : "free",
+        "name" : "クラフト封筒",
+        "type" : "角形8号",
+        "description" : "[UR-4.5-WW] B5サイズ対応(三つ折り)",
+        "url" : "___"
+      },
+      {
+        "org" : "free",
+        "name" : "クラフト封筒",
+        "type" : "長形40号",
+        "description" : "[UR-4.5-WW] A4サイズ対応(四つ折り)",
+        "url" : "___"
+      },
+      {
+        "org" : "free",
+        "name" : "クラフト封筒",
+        "type" : "長形4号",
+        "description" : "[UR-4.5-WW] B5サイズ対応(四つ折り)",
+        "url" : "___"
+      },
+      {
+        "org" : "free",
+        "name" : "ホワイト封筒",
+        "type" : "長形4号",
+        "description" : "[UR-4.5-WW] B5サイズ対応(四つ折り)",
+        "url" : "___"
+      },
+      {
+        "org" : "free",
+        "name" : "エアメール封筒",
+        "type" : "定形郵便用",
+        "description" : "[UR-4.5-WW] 92x165mm 船便使用不可",
+        "url" : "___"
+      },
+      {
+        "org" : "free",
+        "name" : "OPP袋",
+        "type" : "A4",
+        "description" : "[UR-4.5-WW] テープ付き",
+        "url" : "___"
+      },
+      {
+        "org" : "free",
+        "name" : "OPP袋",
+        "type" : "B4",
+        "description" : "[UR-4.5-WW] テープ付き",
+        "url" : "___"
+      },
+      {
+        "org" : "free",
+        "name" : "OPP袋",
+        "type" : "8x12",
+        "description" : "[UR-4.5-WW] テープ付き",
+        "url" : "___"
+      },
+      {
+        "org" : "free",
+        "name" : "OPP袋",
+        "type" : "長方形大判",
+        "description" : "[UR-4.5-WW]",
+        "url" : "___"
+      },
+      {
+        "org" : "free",
+        "name" : "透明ポケット",
+        "type" : "A2",
+        "description" : "[UR-4.5-WW]",
+        "url" : "___"
+      },
+      {
+        "org" : "bought",
+        "name" : "ショップバッグ",
+        "type" : "紙袋",
+        "description" : "[UR-4.5-WW] 32x31.5cm 白色",
+        "url" : "___"
+      },
+      {
+        "org" : "bought",
+        "name" : "巻クラフト紙",
+        "type" : "梱包",
+        "description" : "[UR-4.5-WW] 90cm",
+        "url" : "___"
+      },
+      {
+        "org" : "bought",
+        "name" : "ストレッチフィルム 大",
+        "type" : "梱包",
+        "description" : "[UR-4.5-WW] 50cm",
+        "url" : "___"
+      },
+      {
+        "org" : "bought",
+        "name" : "ストレッチフィルム 小",
+        "type" : "梱包",
+        "description" : "[UR-4.5-WW] 30cm",
+        "url" : "___"
+      },
+      {
+        "org" : "bought",
+        "name" : "チャック付収納パック",
+        "type" : "A3",
+        "description" : "[UR-4.5-WW] 商品サイズ：40cm×50cm×0cm",
+        "url" : "___"
+      },
+      {
+        "org" : "bought",
+        "name" : "チャック付収納パック",
+        "type" : "B4",
+        "description" : "[UR-4.5-WW] 商品サイズ：28cm×40cm×0cm",
+        "url" : "___"
+      },
+      {
+        "org" : "bought",
+        "name" : "チャック付収納パック",
+        "type" : "A4",
+        "description" : "[UR-4.5-WW] 商品サイズ：24cm×34cm×0cm",
+        "url" : "___"
+      },
+      {
+        "org" : "bought",
+        "name" : "ジップ付き袋",
+        "type" : "L",
+        "description" : "[UR-4.5-WW] 27x28cm",
+        "url" : "___"
+      },
+      {
+        "org" : "bought",
+        "name" : "ジップ付き袋",
+        "type" : "M",
+        "description" : "[UR-4.5-WW] 18x20.5cm",
+        "url" : "___"
+      },
+      {
+        "org" : "bought",
+        "name" : "ジップ付き袋",
+        "type" : "S",
+        "description" : "[UR-4.5-WW] 12.7x17.7cm",
+        "url" : "___"
+      },
+      {
+        "org" : "bought",
+        "name" : "ジップ付き袋",
+        "type" : "SS",
+        "description" : "[UR-4.5-WW] 8.2x16.5cm",
+        "url" : "___"
+      },
+      {
+        "org" : "free",
+        "name" : "藁半紙",
+        "type" : "梱包",
+        "description" : "[UR-4.5-WW] クッション材として荷物に入っていた紙を保管",
+        "url" : "___"
+      },
+      {
+        "org" : "free",
+        "name" : "気泡緩衝材",
+        "type" : "梱包",
+        "description" : "[UR-4.5-WW] 届いた荷物に入っていたプチプチ",
+        "url" : "___"
+      },
+      {
+        "org" : "free",
+        "name" : "クッション材",
+        "type" : "梱包",
+        "description" : "[UR-4.5-WW] 届いた荷物に入っていたクラフト紙製",
+        "url" : "___"
+      },
+      {
+        "org" : "free",
+        "name" : "ダンボール各種",
+        "type" : "梱包",
+        "description" : "[UR-4.5-WW] 届いた段ボールのうち綺麗なものを発送時に再利用",
         "url" : "___"
       }
     ]

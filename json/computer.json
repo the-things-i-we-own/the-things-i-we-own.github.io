@@ -1,6 +1,6 @@
 {
     "id" : "computer",
-    "value" : "PC・周辺機器",
+    "value" : "PC・周辺機器・ウェブサービス",
   
     "things" : [
       {
@@ -9,6 +9,20 @@
         "type" : "Mac",
         "description" : "[UR-4.5-TK] 3 GHz 6コアIntel Core i5 | 8 GB 2667 MHz DDR4",
         "url" : "https://support.apple.com/kb/SP782?locale=ja_JP"
+      },
+      {
+        "org" : "bought",
+        "name" : "Hostinger",
+        "type" : "Web Hosting",
+        "description" : "Premium Web Hosting | 100 Websites, 100 GB SSD Storage, Unlimited Bandwidth & Free SSL",
+        "url" : "https://www.hostinger.com/web-hosting"
+      },
+      {
+        "org" : "bought",
+        "name" : "Annual Premium",
+        "type" : "Are.na",
+        "description" : "$45.00 / Year, 2019 - 2022 | $70.00 / Year, 2023 -",
+        "url" : "https://www.are.na/pricing"
       },
       {
         "org" : "gift",
@@ -254,6 +268,13 @@
         "type" : "Chromebook",
         "description" : "[UR] AMD 3015Ce モバイル・プロセッサー | 14.0インチワイド・IPSタッチディスプレイ | 4GB オンボード | 64GB eMMC",
         "url" : "___"
+      },
+      {
+        "org" : "bought",
+        "name" : "creative-community.space",
+        "type" : "Domain",
+        "description" : "2,276 円 / Year, 2019",
+        "url" : "https://www.hostinger.com/domain-name-search"
       }
     ]
   }
