@@ -5,9 +5,9 @@
   "email" : "pehu@creative-community.space",
   "type" : "website",
   "twitter" : "@pe_hu_",
-  "card" : "summary",
-  "src" : "img/image.png",
-  "icon" : "img/image.png",
+  "card" : "summary_large_image",
+  "src" : "3d/card.png",
+  "icon" : "3d/image.png",
 
   "org" : [
     {
@@ -29,11 +29,6 @@
       "id" : "other",
       "name" : "other",
       "info" : "その他、制作物、出来たものなど"
-    },
-    {
-      "id" : "sale",
-      "name" : "$$$ FOR SALE $$$",
-      "info" : "販売品、有料貸出品など"
     }
   ]
 }
