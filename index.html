@@ -5,18 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="format-detection" content="telephone=no">
-    <script src="template/index.js" defer></script>
+    <script src="template/index.js" async></script>
     <script src="template/things.js"></script>
-    <script>
-        thingsJSON('json/furniture.json');
-        thingsJSON('json/goods.json');
-        thingsJSON('json/printing.json');
-        thingsJSON('json/shopping.json');
-        thingsJSON('json/listening.json');
-        thingsJSON('json/viewing.json');
-        thingsJSON('json/stationary.json');
-        thingsJSON('json/computer.json');
-        thingsJSON('json/www.json');
+    <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', function () {
+            thingsJSON('json/furniture.json');
+            thingsJSON('json/goods.json');
+            thingsJSON('json/printing.json');
+            thingsJSON('json/shopping.json');
+            thingsJSON('json/listening.json');
+            thingsJSON('json/viewing.json');
+            thingsJSON('json/stationary.json');
+            thingsJSON('json/computer.json');
+            thingsJSON('json/www.json');
+        });
     </script>
     <link rel="stylesheet" type="text/css" href="template/style.css">
     <style>
@@ -70,13 +72,6 @@
             <label for="all">Index</label>
         </nav>
     </header>
-    <main id="things">
-        <ul id="about">
-            <p>
-                上の項目を選択すると、下記の分類ごとに所有するものを絞り込むことができます。
-            </p>
-        </ul>
-    </main>
     <main hidden>
         <footer>
             <p>
@@ -85,7 +80,14 @@
             </p>
         </footer>
     </main>
-    <script src="script.js"></script>
+    <main id="things">
+        <ul id="about">
+            <p>
+                上の項目を選択すると、下記の分類ごとに所有するものを絞り込むことができます。
+            </p>
+        </ul>
+    </main>
+    <script src="template/org.js"></script>
 </body>
 
 </html>

@@ -19,9 +19,9 @@ input[type="radio"]+label {
 }
 
 header,
+header nav,
 #title,
 #description,
-header nav,
 #things ul {
     padding: 0.5rem;
     margin: 0;
@@ -47,7 +47,6 @@ header nav,
 #things {
     clear: both;
     display: flex;
-    align-items: flex-start;
 }
 
 input[type="radio"]+label,
@@ -59,7 +58,8 @@ header nav {
     flex-wrap: wrap;
 }
 
-#things {
+main {
+    position: relative;
     overflow-x: auto;
     scroll-snap-type: x proximity;
     height: calc(100vh - 7.5rem);
@@ -86,7 +86,13 @@ header nav {
 
 #things ul li {
     list-style: none;
-    ;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 input[type="button"] {
@@ -101,8 +107,7 @@ input[type="radio"]+label:hover {
     cursor: pointer;
 }
 
-h1,
-#indexBtn {
+h1 {
     font-size: 200%;
 }
 
