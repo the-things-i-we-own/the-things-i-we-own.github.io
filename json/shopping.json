@@ -5,37 +5,9 @@
     "things" : [
       {
         "org" : "bought",
-        "name" : "CARL MR-2000",
-        "type" : "決済",
-        "description" : "[UR-4.5-WW] Mini Reji コイン専用コンパクトレジスター",
-        "url" : "___"
-      },
-      {
-        "org" : "bought",
-        "name" : "コインケース",
-        "type" : "決済",
-        "description" : "[UR-4.5-WW]",
-        "url" : "___"
-      },
-      {
-        "org" : "bought",
-        "name" : "ウエストポーチ",
-        "type" : "決済",
-        "description" : "[UR-4.5-WW]",
-        "url" : "___"
-      },
-      {
-        "org" : "bought",
         "name" : "納品書",
         "type" : "書類",
         "description" : "[UR-4.5-WW] KOKUYO ウ-367-N ウ-341-N",
-        "url" : "___"
-      },
-      {
-        "org" : "bought",
-        "name" : "給与支払明細書",
-        "type" : "書類",
-        "description" : "[UR-4.5-WW]",
         "url" : "___"
       },
       {
