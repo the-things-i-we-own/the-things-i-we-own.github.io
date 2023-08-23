@@ -5,9 +5,9 @@
   "email" : "pehu@creative-community.space",
   "type" : "website",
   "twitter" : "@pe_hu_",
-  "card" : "summary_large_image",
-  "src" : "3d/card.png",
-  "icon" : "3d/image.png",
+  "card" : "summary",
+  "src" : "cover.png",
+  "icon" : "cover.png",
 
   "org" : [
     {
