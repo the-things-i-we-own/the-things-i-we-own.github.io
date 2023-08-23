@@ -18,20 +18,6 @@
         "url" : "___"
       },
       {
-        "org" : "gift",
-        "name" : "アドレス帳",
-        "type" : "情報",
-        "description" : "[UR-4.5-WW] 漆塗り・ミニサイズ",
-        "url" : "___"
-      },
-      {
-        "org" : "gift",
-        "name" : "名刺ケース",
-        "type" : "情報",
-        "description" : "[UR-4.5-WW] 要整理",
-        "url" : "___"
-      },
-      {
         "org" : "free",
         "name" : "クリップバインダー",
         "type" : "ファイル",
