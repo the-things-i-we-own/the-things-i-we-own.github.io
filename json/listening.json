@@ -138,20 +138,6 @@
       },
       {
         "org" : "bought",
-        "name" : "AudioComm RCS-S940R",
-        "type" : "ポータブルステレオラジオカセットレコーダー",
-        "description" : "[UR-7.5-WW] ステレオ方式カセットデッキ（4トラック2チャンネル） | AM/FM受信（AM：モノラル音声、FM：モノラル/ステレオ音声）",
-        "url" : ",https://mackie-jp.com/mixers/mix/"
-      },
-      {
-        "org" : "bought",
-        "name" : "壁掛けCDプレーヤー",
-        "type" : "CDプレーヤー",
-        "description" : "[KAHM] M.WAY",
-        "url" : "___"
-      },
-      {
-        "org" : "bought",
         "name" : "FiiO BTA30 Pro",
         "type" : "Bluetoothレシーバー＆トランスミッター",
         "description" : "[UR-7.5-WW] 無線と有線を自在に変換する「超」メディアHUB。これ1台で全てが完結する",
