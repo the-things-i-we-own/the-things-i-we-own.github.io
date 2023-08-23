@@ -1,69 +1,38 @@
-@font-face {
-  font-family: "ipag";
-  src: url("https://creative-community.space/ver/font/ipag.ttc");
+header {
+  border-bottom: dotted #ddd 1px;
 }
 
-body,
-#filter select {
-  font-family: "Arial Narrow", "Yu Gothic", Arial, sans-serif;
+footer {
+  border-top: dotted #ddd 1px;
 }
 
-#log li p u,
-main nav {
-  font-family: "ipag", monospace;
+#things::-webkit-scrollbar-thumb {
+  border-radius: 2rem;
+  background: #ddd;
 }
 
-#result,
-#log li p b {
-  font-family: 'Times New Roman', serif;
-  font-weight: 500;
-  font-stretch: condensed;
-  font-variant: common-ligatures tabular-nums;
-  transform: scale(1, 1.1);
-  letter-spacing: -0.1rem;
-  word-spacing: -.1ch;
-}
-
-.list [data-status="lost"] {
-  text-decoration: line-through;
-}
-
-html,
-body {
+input[type="button"] {
   color: #000;
-  background: #fff;
 }
 
-#filter summary,
-#filter select {
-  color: #333;
+input[type="radio"]+label:hover {
+  text-decoration: #000 underline double;
 }
 
-a {
+nav label:not(:first-of-type)::before {
+  content: "|";
+  color: #000;
+  font-weight: 900;
+  margin: 0 0.5rem;
+}
+
+input[type="radio"]:not(:checked)+label {
+  color: #ddd;
+}
+
+#things ul u {
+  display: block;
+  border: solid 1px;
+  padding: 0 0.25rem;
   text-decoration: none;
-}
-
-a,
-#readme {
-  color: #fff;
-  background: #333;
-}
-
-.list,
-#readme {
-  font-size: 111%;
-}
-
-hr {
-  margin: 1rem;
-}
-
-@media screen and (max-width: 550px) {
-  .list {
-    font-size: 125%;
-  }
-
-  hr {
-    margin: 2.5vw;
-  }
 }

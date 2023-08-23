@@ -4,22 +4,9 @@
 ## [index.json](index.json)
 ページタイトル・説明文などのメタ情報を記述
 
-## [index.php](index.php)
-* details id="filter" 内に、絞り込みに使用するセレクター要素を必要なだけ記述
-* それぞれのセレクター要素 に name属性を設定
-* セレクター要素内に value="all" を設定した オプション要素を記述
-
-## [log.php](log.php)
-* 所有するものを記録する CSVファイル を設定
-* li 要素に セレクター要素 の値を取得する カスタムデータ属性を設定
-
 ***
 
 JavaScript
-[index.js](../js/index.js)
-[select.js](../js/select.js)
-[filter.js](../js/filter.js)
----
 ## [script.js](script.js)
 セレクター要素内に生成する オプション要素 を設定する
 
@@ -54,11 +41,10 @@ JavaScript
 
 Stylesheet
 [index.css](../css/index.css)
-[filter.css](../css/filter.css)
-[log.css](../css/log.css)
+
 ---
 ## [style.css](style.css)
 ページを独自にスタイリングする
 
 ***
-## [URL](https://creative-community.space/org/own/)
+## [the-things-i-we-own.github.io](https://the-things-i-we-own.github.io/)
