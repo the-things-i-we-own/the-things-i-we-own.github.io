@@ -4,48 +4,6 @@
   
     "things" : [
       {
-        "org" : "other",
-        "name" : "三菱UFJ銀行",
-        "type" : "口座",
-        "description" : "ペフメインバンク",
-        "url" : "___"
-      },
-      {
-        "org" : "gift",
-        "name" : "Square 磁気カードリーダー",
-        "type" : "電子決済",
-        "description" : "[UR-4.5-WW]",
-        "url" : "___"
-      },
-      {
-        "org" : "gift",
-        "name" : "Square Bluetoothカードリーダー",
-        "type" : "電子決済",
-        "description" : "[UR-4.5-WW]",
-        "url" : "___"
-      },
-      {
-        "org" : "other",
-        "name" : "PayPay銀行",
-        "type" : "口座",
-        "description" : "電子決済用口座",
-        "url" : "___"
-      },
-      {
-        "org" : "other",
-        "name" : "PayPay QRコード",
-        "type" : "電子決済",
-        "description" : "[UR-4.5-WW]",
-        "url" : "___"
-      },
-      {
-        "org" : "bought",
-        "name" : "キャッシュトレー",
-        "type" : "Galaxy",
-        "description" : "[UR-4.5-WW]",
-        "url" : "___"
-      },
-      {
         "org" : "bought",
         "name" : "CARL MR-2000",
         "type" : "決済",
