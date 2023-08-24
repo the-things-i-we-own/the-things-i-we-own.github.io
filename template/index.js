@@ -150,7 +150,9 @@ function coverORG(obj) {
         const coverLi = document.createElement('li');
         coverLi.className = coverEach.size;
         coverLi.setAttribute("data-org", coverEach.org);
-        coverLi.style.backgroundImage = `url('${coverEach.src}')`
+        coverLi.style.left = coverEach.x;
+        coverLi.style.top = coverEach.y;
+        coverLi.style.backgroundImage = `url('${coverEach.src}')`;
         cover.appendChild(coverLi);
     }
 }

@@ -70,6 +70,7 @@ main {
 body {
     flex-direction: column;
     height: 100vh;
+    max-height: -webkit-fill-available;
 }
 
 #things {
