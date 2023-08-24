@@ -1,14 +1,25 @@
-header {
-  border-bottom: dotted #ddd 1px;
-}
-
+h1,
+ul strong,
+ul b,
 footer {
-  border-top: dotted #ddd 1px;
+  font-family: 'IBM Plex Serif', serif;
 }
 
-#things::-webkit-scrollbar-thumb {
-  border-radius: 2rem;
-  background: #ddd;
+#description,
+#org,
+ul small,
+ul u {
+  font-family: 'IBM Plex Sans JP', sans-serif;
+}
+
+#things ul u {
+  display: block;
+  border: solid 1px;
+  border-radius: 0.5rem;
+  padding: 0.125rem 0.25rem;
+  margin-left: 0.25rem;
+  margin-bottom: 0.25rem;
+  text-decoration: none;
 }
 
 input[type="button"] {
@@ -30,9 +41,15 @@ input[type="radio"]:not(:checked)+label {
   color: #ddd;
 }
 
-#things ul u {
-  display: block;
-  border: solid 1px;
-  padding: 0 0.25rem;
-  text-decoration: none;
+header {
+  border-bottom: dotted #ddd 1px;
+}
+
+footer {
+  border-top: dotted #ddd 1px;
+}
+
+#things::-webkit-scrollbar-thumb {
+  border-radius: 2rem;
+  background: #ddd;
 }
