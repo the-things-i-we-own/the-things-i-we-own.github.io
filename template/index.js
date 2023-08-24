@@ -1,5 +1,18 @@
 'use strict'
 
+function changeHidden() {
+    const mainAll = document.querySelectorAll('main')
+    mainAll.forEach(main => {
+        if (main.hidden == false) {
+            main.hidden = true
+            main.style.display = "none"
+        } else {
+            main.hidden = false
+            main.style.display = "flex"
+        }
+    })
+}
+
 async function indexJSON() {
     const requestURL = 'index.json';
     const request = new Request(requestURL);
@@ -9,6 +22,7 @@ async function indexJSON() {
     const index = JSON.parse(jsonIndex);
     indexHead(index);
     indexORG(index);
+    coverORG(index);
 }
 
 function indexHead(obj) {
@@ -125,6 +139,19 @@ function indexORG(obj) {
         <b>${orgEach.info}</b>
         `
         aboutORG.appendChild(aboutLi);
+    }
+}
+
+function coverORG(obj) {
+    const cover = document.querySelector('#cover #img');
+    const coverAll = obj.cover;
+
+    for (const coverEach of coverAll) {
+        const coverLi = document.createElement('li');
+        coverLi.className = coverEach.size;
+        coverLi.setAttribute("data-org", coverEach.org);
+        coverLi.style.backgroundImage = `url('${coverEach.src}')`
+        cover.appendChild(coverLi);
     }
 }
 

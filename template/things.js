@@ -5,10 +5,9 @@ async function thingsJSON(requestURL = '') {
     const response = await fetch(request);
     const thingsThis = await response.text();
     const thisJSON = JSON.parse(thingsThis);
-    thingsHead(thisJSON);
     thingsORG(thisJSON);
 
-    function thingsHead(obj) {
+    function thingsORG(obj) {
         const mainThings = document.querySelector('#things');
         const thingsUL = document.createElement('ul');
         const thingsP = document.createElement('p');
@@ -18,10 +17,7 @@ async function thingsJSON(requestURL = '') {
 
         mainThings.appendChild(thingsUL);
         thingsUL.appendChild(thingsP);
-
-    }
-
-    function thingsORG(obj) {
+        
         const thingsID = document.querySelector(`#${obj.id}`);
         const thingAll = obj.things;
 

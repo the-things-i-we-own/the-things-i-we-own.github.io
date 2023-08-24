@@ -7,8 +7,35 @@
     <meta name="format-detection" content="telephone=no">
     <script src="template/index.js" async></script>
     <script src="template/things.js"></script>
+    <link rel="stylesheet" type="text/css" href="template/style.css">
+    <link rel="stylesheet" type="text/css" href="template/cover.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="title" onclick="changeHidden()">The Things I (We) Own</h1>
+        <p id="description">所有するもの を カテゴリー・状態 ごとに 整理して記録する</p>
+        <nav id="org">
+            <input type="radio" name="org" id="all" value="all" checked>
+            <label for="all">Index</label>
+        </nav>
+    </header>
+
+    <main id="cover" hidden>
+        <ul id="about"></ul>
+        <ul id="img"></ul>
+        <footer>
+            <p>
+                Author <b id="author"></b><br />
+                Email <a id="email"></a>
+            </p>
+        </footer>
+    </main>
+
+    <main id="things"></main>
     <script type="text/javascript">
-        document.addEventListener('DOMContentLoaded', function () {
+        document.addEventListener("DOMContentLoaded", function() {
             thingsJSON('json/furniture.json');
             thingsJSON('json/goods.json');
             thingsJSON('json/printing.json');
@@ -18,36 +45,9 @@
             thingsJSON('json/stationary.json');
             thingsJSON('json/computer.json');
             thingsJSON('json/www.json');
+            changeHidden()
         });
     </script>
-    <link rel="stylesheet" type="text/css" href="template/style.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-
-<body>
-    <header>
-        <h1 id="title"></h1>
-        <p id="description"></p>
-        <nav id="org">
-            <input type="radio" name="org" id="all" value="all" checked>
-            <label for="all">Index</label>
-        </nav>
-    </header>
-    <main hidden>
-        <footer>
-            <p>
-                Author <b id="author"></b><br />
-                Email <a id="email"></a>
-            </p>
-        </footer>
-    </main>
-    <main id="things">
-        <ul id="about">
-            <p>
-                上の項目を選択すると、下記の分類ごとに所有するものを絞り込むことができます。
-            </p>
-        </ul>
-    </main>
     <script src="template/org.js"></script>
 </body>
 
