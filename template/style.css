@@ -74,6 +74,7 @@ body {
 }
 
 #things {
+    height: 100%;
     overflow-x: auto;
     scroll-snap-type: x proximity;
 }
