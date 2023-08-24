@@ -98,14 +98,6 @@ body {
     height: 100%;
 }
 
-input[type="button"] {
-    appearance: none;
-    background: transparent;
-    border: none;
-    outline: none;
-}
-
-input[type="button"]:hover,
 input[type="radio"]+label:hover {
     cursor: pointer;
 }

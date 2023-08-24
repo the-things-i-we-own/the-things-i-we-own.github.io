@@ -37,8 +37,14 @@ nav label:not(:first-of-type)::before {
   margin: 0 0.5rem;
 }
 
+a,
 input[type="radio"]:not(:checked)+label {
   color: #ddd;
+}
+
+a:hover,
+input[type="radio"]:checked+label {
+  color: #000;
 }
 
 header {
