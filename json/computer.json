@@ -5,13 +5,6 @@
     "things" : [
       {
         "org" : "bought",
-        "name" : "Mac mini (2018)",
-        "type" : "Mac",
-        "description" : "[UR-4.5-TK] 3 GHz 6コアIntel Core i5 | 8 GB 2667 MHz DDR4",
-        "url" : "https://support.apple.com/kb/SP782?locale=ja_JP"
-      },
-      {
-        "org" : "bought",
         "name" : "Hostinger",
         "type" : "Web Hosting",
         "description" : "Premium Web Hosting | 100 Websites, 100 GB SSD Storage, Unlimited Bandwidth & Free SSL",
@@ -25,31 +18,24 @@
         "url" : "https://www.are.na/pricing"
       },
       {
-        "org" : "gift",
+        "org" : "bought",
+        "name" : "Mac mini (2018)",
+        "type" : "Mac",
+        "description" : "[UR-7.5-TK] 3 GHz 6コアIntel Core i5 | 8 GB 2667 MHz DDR4",
+        "url" : "https://support.apple.com/kb/SP782?locale=ja_JP"
+      },
+      {
+        "org" : "free",
         "name" : "31.5型 ディスプレイ",
         "type" : "I-O DATA EX-LD321DB",
-        "description" : "[UR-4.5-TK] 広視野角ADSパネル HDMI×2 DisplayPort",
+        "description" : "[UR-7.5-TK] 広視野角ADSパネル HDMI×2 DisplayPort",
         "url" : "https://www.iodata.jp/product/lcd/wide/ex-ld321db/"
-      },
-      {
-        "org" : "bought",
-        "name" : "Adobe Creative Cloud",
-        "type" : "アプリとサービス",
-        "description" : "すべての人に「つくる力」を",
-        "url" : "https://www.adobe.com/jp/"
-      },
-      {
-        "org" : "gift",
-        "name" : "HD-LC3.0U3-BK",
-        "type" : "外付けハードディスク",
-        "description" : "3TB | USB3.1(Gen1)/USB3.0/2.0",
-        "url" : "___"
       },
       {
         "org" : "bought",
         "name" : "HD-PCFS4.0U3-GBA",
         "type" : "外付けハードディスク",
-        "description" : "[UR-7.5] 4TB | USB3.1(Gen1)/USB3.0/2.0",
+        "description" : "[UR-7.5-TK] 4TB | USB3.1(Gen1)/USB3.0/2.0",
         "url" : "___"
       },
       {
@@ -57,13 +43,6 @@
         "name" : "M-IR07DRSBK",
         "type" : "無線IRマウス",
         "description" : "[UR-7.5] 約2.5年電池交換しなくてOK！消費電力の小さな赤外線LEDを使用したワイヤレスIR LEDマウス。",
-        "url" : "___"
-      },
-      {
-        "org" : "bought",
-        "name" : "SKB-BT25BK",
-        "type" : "Bluetoothキーボード",
-        "description" : "iOSに対応したパンタグラフ式アイソレーションBluetoothキーボード。ブラック。英語配列。",
         "url" : "___"
       },
       {

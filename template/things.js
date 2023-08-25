@@ -17,7 +17,7 @@ async function thingsJSON(requestURL = '') {
 
         mainThings.appendChild(thingsUL);
         thingsUL.appendChild(thingsP);
-        
+
         const thingsID = document.querySelector(`#${obj.id}`);
         const thingAll = obj.things;
 

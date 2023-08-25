@@ -10,23 +10,22 @@
     <link rel="stylesheet" type="text/css" href="template/style.css">
     <link rel="stylesheet" type="text/css" href="template/cover.css">
     <link rel="stylesheet" type="text/css" href="style.css">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP&family=IBM+Plex+Serif:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP&family=IBM+Plex+Serif:ital,wght@1,200&display=swap">
 </head>
 
 <body>
     <header>
-        <h1 id="title" onclick="changeHidden()">The Things I (We) Own</h1>
-        <p id="description">所有するもの を カテゴリー・状態 ごとに 整理して記録する</p>
+        <h1 id="title">The Things I (We) Own</h1>
+        <p id="description" onclick="changeHidden()">所有するもの を カテゴリー・状態 ごとに 整理して記録する</p>
         <nav id="org">
             <input type="radio" name="org" id="all" value="all" checked>
             <label for="all">Index</label>
         </nav>
     </header>
 
-    <main id="cover" hidden>
+    <main id="cover">
         <ul id="about"></ul>
         <ul id="img"></ul>
         <footer>
@@ -37,7 +36,7 @@
         </footer>
     </main>
 
-    <main id="things"></main>
+    <main id="things" hidden></main>
     <script type="text/javascript">
         document.addEventListener("DOMContentLoaded", function () {
             thingsJSON('json/furniture.json');
@@ -48,7 +47,6 @@
             thingsJSON('json/viewing.json');
             thingsJSON('json/stationary.json');
             thingsJSON('json/computer.json');
-            changeHidden();
         });
     </script>
     <script src="template/org.js"></script>

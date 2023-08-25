@@ -1,7 +1,22 @@
-#cover {
-    width: 100%;
-    height: 100%;
+#cover,
+#img {
+    position: relative;
     overflow: hidden;
+}
+
+#about {
+    position: absolute;
+    overflow: auto;
+    width: 100%;
+    height: 75%;
+    z-index: 1;
+}
+
+#img {
+    margin: auto;
+    width: 100%;
+    max-width: 1000px;
+    height: 100%;
 }
 
 #img li {
@@ -58,47 +73,55 @@
     height: 2.5rem;
 }
 
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
 @media screen and (max-width: 550px) {
     #img li.xxx-large {
         width: 95vw;
         height: 95vw;
     }
-    
+
     #img li.xx-large {
         width: 75vw;
         height: 75vw;
     }
-    
+
     #img li.x-large {
         width: 55vw;
         height: 55vw;
     }
-    
+
     #img li.large {
         width: 40vw;
         height: 40vw;
     }
-    
+
     #img li.medium {
         width: 32.1vw;
         height: 32.1vw;
     }
-    
+
     #img li.small {
         width: 27.5vw;
         height: 27.5vw;
     }
-    
+
     #img li.x-small {
         width: 20vw;
         height: 20vw;
     }
-    
+
     #img li.xx-small {
         width: 12.5vw;
         height: 12.5vw;
     }
-    
+
     #img li.xxx-small {
         width: 5.5vw;
         height: 5.5vw;

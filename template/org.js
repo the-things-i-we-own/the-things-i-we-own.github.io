@@ -1,6 +1,6 @@
 'use strict'
 
-window.addEventListener("load", function() {
+window.addEventListener("load", function () {
     let targets = document.querySelectorAll("main ul li")
     let filter = document.querySelectorAll('#org input[type="radio"]')
     if (filter) {

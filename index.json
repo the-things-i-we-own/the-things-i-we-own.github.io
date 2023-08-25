@@ -12,23 +12,28 @@
   "org" : [
     {
       "id" : "bought",
-      "name" : "bought",
-      "info" : "購入物"
+      "name" : "購入物",
+      "info" : "購入したもの、外注して制作したもの、など"
     },
     {
       "id" : "gift",
-      "name" : "gift",
-      "info" : "頂き物"
+      "name" : "頂き物",
+      "info" : "関わった人たちから頂いたもの、など"
     },
     {
       "id" : "free",
-      "name" : "free or found",
-      "info" : "拾得物"
+      "name" : "拾得物",
+      "info" : "拾ったもの、無料で配布されていたもの、など"
+    },
+    {
+      "id" : "made",
+      "name" : "制作物",
+      "info" : "作ったもの、出来たもの、など"
     },
     {
       "id" : "other",
-      "name" : "other",
-      "info" : "その他、制作物、出来たものなど"
+      "name" : "その他",
+      "info" : "資料や書類など、上記のカテゴリーに当てはまらないもの"
     }
   ],
 
@@ -65,7 +70,7 @@
       "org" : "made",
       "size" : "x-large",
       "x" : "75%",
-      "y" : "15%",
+      "y" : "25%",
       "src" : "https://d2w9rnfcy7mm78.cloudfront.net/23249554/original_07a9552d6afcebb1b7f5b2faae5d9396.png?1692606907?bc=0"
     },
     {
@@ -85,12 +90,12 @@
     {
       "org" : "made",
       "size" : "medium",
-      "x" : "65%",
+      "x" : "60%",
       "y" : "55%",
       "src" : "https://d2w9rnfcy7mm78.cloudfront.net/23249560/original_7cdf66361ba8c439a55bf09215ab2d54.png?1692606910?bc=0"
     },
     {
-      "org" : "made",
+      "org" : "other",
       "size" : "medium",
       "x" : "45%",
       "y" : "60%",
@@ -104,7 +109,7 @@
       "src" : "https://d2w9rnfcy7mm78.cloudfront.net/23249538/original_6f482caeb036ad6598e7478e902f68da.png?1692606905?bc=0"
     },
     {
-      "org" : "bought",
+      "org" : "gift",
       "size" : "medium",
       "x" : "30%",
       "y" : "70%",
