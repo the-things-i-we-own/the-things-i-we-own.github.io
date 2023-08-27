@@ -19,6 +19,13 @@
       },
       {
         "org" : "bought",
+        "name" : "creative-community.space",
+        "type" : "Domain",
+        "description" : "2,276 円 / Year, 2019",
+        "url" : "https://www.hostinger.com/domain-name-search"
+      },
+      {
+        "org" : "bought",
         "name" : "Mac mini (2018)",
         "type" : "Mac",
         "description" : "[UR-7.5-TK] 3 GHz 6コアIntel Core i5 | 8 GB 2667 MHz DDR4",
@@ -61,71 +68,8 @@
       },
       {
         "org" : "bought",
-        "name" : "USB-A 有線WEBカメラ",
-        "type" : "WEBカメラ",
-        "description" : "[UR-7.5]",
-        "url" : "___"
-      },
-      {
-        "org" : "bought",
-        "name" : "USB-A 有線WEBマイク",
-        "type" : "WEBマイク",
-        "description" : "[UR-7.5]",
-        "url" : "___"
-      },
-      {
-        "org" : "bought",
-        "name" : "Intel Skynew M1S",
-        "type" : "スティック型パソコン",
-        "description" : "[UR-7.5] Intel Atom x5-Z8350/4GB/64GB/Win11【型番:M1S】",
-        "url" : "___"
-      },
-      {
-        "org" : "bought",
-        "name" : "logi M221",
-        "type" : "USB-A Bluetoothマウス",
-        "description" : "[UR-7.5]",
-        "url" : "___"
-      },
-      {
-        "org" : "bought",
         "name" : "iClever IC-BK03",
         "type" : "折りたたみBluetoothキーボード",
-        "description" : "[UR-7.5]",
-        "url" : "___"
-      },
-      {
-        "org" : "bought",
-        "name" : "N5 1080P Webcam",
-        "type" : "USB-A 有線WEBカメラ",
-        "description" : "[UR-7.5]",
-        "url" : "___"
-      },
-      {
-        "org" : "bought",
-        "name" : "MM-MCUSB25",
-        "type" : "USB-A 有線WEBマイク",
-        "description" : "[UR-7.5]",
-        "url" : "___"
-      },
-      {
-        "org" : "bought",
-        "name" : "BUFFALO BSH4U310U3",
-        "type" : "USB-A 4×HUB",
-        "description" : "[UR-7.5]",
-        "url" : "___"
-      },
-      {
-        "org" : "bought",
-        "name" : "ELECOM U2H-SN4NB",
-        "type" : "USB-A 4×HUB",
-        "description" : "[UR-7.5]",
-        "url" : "___"
-      },
-      {
-        "org" : "bought",
-        "name" : "USB-A(オス)→USB-A(メス)延長 10m",
-        "type" : "USB ケーブル",
         "description" : "[UR-7.5]",
         "url" : "___"
       },
@@ -186,10 +130,10 @@
         "url" : "___"
       },
       {
-        "org" : "bought",
-        "name" : "iPad (第6世代)",
-        "type" : "iOS",
-        "description" : "[KAHM] 組み込み型M10コプロセッサ Wi-Fiモデル | 32GB",
+        "org" : "gift",
+        "name" : "MacBook Pro (2017)",
+        "type" : "Mac",
+        "description" : "[UR] 2.3GHzデュアルコアIntel Core i5 | 13-inch, Two Thunderbolt 3 ports",
         "url" : "___"
       },
       {
@@ -200,10 +144,10 @@
         "url" : "___"
       },
       {
-        "org" : "gift",
-        "name" : "MacBook Pro (2017)",
-        "type" : "Mac",
-        "description" : "[UR] 2.3GHzデュアルコアIntel Core i5 | 13-inch, Two Thunderbolt 3 ports",
+        "org" : "bought",
+        "name" : "iPad (第6世代)",
+        "type" : "iOS",
+        "description" : "[KAHM] 組み込み型M10コプロセッサ Wi-Fiモデル | 32GB",
         "url" : "___"
       },
       {
@@ -215,31 +159,17 @@
       },
       {
         "org" : "bought",
-        "name" : "400-MA095",
-        "type" : "エアマウス",
-        "description" : "[UR-4.5-TK] プレゼンテーションマウス・空中マウス・ワイヤレスプレゼンター・ジャイロ",
-        "url" : "___"
-      },
-      {
-        "org" : "bought",
-        "name" : "Google Chromecast",
-        "type" : "メディアストリーミング端末",
-        "description" : "[UR-7.5] 第三世代 2K対応 チャコール GA00439-JP",
-        "url" : "___"
+        "name" : "GA00439-JP",
+        "type" : "Chromecast",
+        "description" : "[UR-7.5] メディアストリーミング端末 | 第三世代 2K対応 チャコール",
+        "url" : "https://support.google.com/chromecast/chromecast"
       },
       {
         "org" : "gift",
         "name" : "HP 14a-nd0000AU",
         "type" : "Chromebook",
         "description" : "[UR] AMD 3015Ce モバイル・プロセッサー | 14.0インチワイド・IPSタッチディスプレイ | 4GB オンボード | 64GB eMMC",
-        "url" : "___"
-      },
-      {
-        "org" : "bought",
-        "name" : "creative-community.space",
-        "type" : "Domain",
-        "description" : "2,276 円 / Year, 2019",
-        "url" : "https://www.hostinger.com/domain-name-search"
+        "url" : "https://jp.ext.hp.com/content/dam/jp-ext-hp-com/jp/ja/ec/lib/products/portables/personal/spec_pdf/chromebook_14a_nd.pdf"
       }
     ]
   }

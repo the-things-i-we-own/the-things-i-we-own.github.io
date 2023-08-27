@@ -4,6 +4,55 @@
   
     "things" : [
       {
+        "org" : "made",
+        "name" : "ハンガーラック脚",
+        "type" : "出店",
+        "description" : "[UR-7.5] 2x4＋ブラケット",
+        "url" : "___"
+      },
+      {
+        "org" : "bought",
+        "name" : "透明棒x2",
+        "type" : "出店",
+        "description" : "[UR-E] 100cm/直径2cm/空洞",
+        "url" : "___"
+      },
+      {
+        "org" : "bought",
+        "name" : "棒x2",
+        "type" : "出店",
+        "description" : "[UR-E] 150cm/165cm",
+        "url" : "___"
+      },
+      {
+        "org" : "bought",
+        "name" : "棒x5",
+        "type" : "出店",
+        "description" : "[KAHM] 150cm×4(スペーシア), 165cm(ステンレス)",
+        "url" : "___"
+      },
+      {
+        "org" : "bought",
+        "name" : "ハンガー",
+        "type" : "出店",
+        "description" : "[UR-7.5] 銀",
+        "url" : "___"
+      },
+      {
+        "org" : "bought",
+        "name" : "のぼりセット",
+        "type" : "棒/ベース",
+        "description" : "[UR-7.5/E] 伸縮可能",
+        "url" : "___"
+      },
+      {
+        "org" : "bought",
+        "name" : "非接触アルコールディスペンサー",
+        "type" : "日用品",
+        "description" : "[UR-K] 2段階調節可能,電池式(単三電池4個),360ml",
+        "url" : "___"
+      },
+      {
         "org" : "bought",
         "name" : "納品書",
         "type" : "書類",
@@ -29,69 +78,6 @@
         "name" : "ラゲッジスケール",
         "type" : "はかり",
         "description" : "[UR-4.5-WW] 吊り下げ式電子スケール MAX50kg",
-        "url" : "___"
-      },
-      {
-        "org" : "gift",
-        "name" : "日本製ラベル",
-        "type" : "ステッカー",
-        "description" : "[UR-4.5-WW] HEIKOタックラベル 6x20mm",
-        "url" : "___"
-      },
-      {
-        "org" : "gift",
-        "name" : "新発売ラベル",
-        "type" : "ステッカー",
-        "description" : "[UR-4.5-WW] HEIKOタックラベル 16x36mm",
-        "url" : "___"
-      },
-      {
-        "org" : "gift",
-        "name" : "自家製ラベル",
-        "type" : "ステッカー",
-        "description" : "[UR-4.5-WW] HEIKOタックラベル 11x32mm",
-        "url" : "___"
-      },
-      {
-        "org" : "gift",
-        "name" : "アルファベットステッカー",
-        "type" : "ステッカー",
-        "description" : "[UR-4.5-WW] www.mylittleshoebox.com 黄緑色　四角型",
-        "url" : "___"
-      },
-      {
-        "org" : "gift",
-        "name" : "ナンバーステッカー",
-        "type" : "ステッカー",
-        "description" : "[UR-4.5-WW] エーワンラベルシール 9mm 丸型",
-        "url" : "___"
-      },
-      {
-        "org" : "gift",
-        "name" : "ひらがなステッカー",
-        "type" : "ステッカー",
-        "description" : "[UR-4.5-WW] DECAdry　白色",
-        "url" : "___"
-      },
-      {
-        "org" : "gift",
-        "name" : "Best Wishesラベル金",
-        "type" : "ステッカー",
-        "description" : "[UR-4.5-WW] HEIKOギフトシール 22x30mm",
-        "url" : "___"
-      },
-      {
-        "org" : "gift",
-        "name" : "Best Wishesラベル銀",
-        "type" : "ステッカー",
-        "description" : "[UR-4.5-WW] HEIKOギフトシール 22x30mm",
-        "url" : "___"
-      },
-      {
-        "org" : "gift",
-        "name" : "Thank youラベル",
-        "type" : "ステッカー",
-        "description" : "[UR-4.5-WW]",
         "url" : "___"
       },
       {
