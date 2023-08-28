@@ -1,6 +1,6 @@
 'use strict'
 
-window.addEventListener("load", function () {
+window.onload = function(){
     let targets = document.querySelectorAll("main ul li")
     let filter = document.querySelectorAll('#org input[type="radio"]')
     if (filter) {
@@ -23,4 +23,4 @@ window.addEventListener("load", function () {
             })
         }
     }
-});
+};

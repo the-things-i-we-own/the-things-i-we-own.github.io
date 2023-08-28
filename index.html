@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="format-detection" content="telephone=no">
     <script src="template/index.js" async></script>
-    <script src="template/things.js"></script>
+    <script src="template/things.js" defer></script>
     <link rel="stylesheet" type="text/css" href="template/style.css">
     <link rel="stylesheet" type="text/css" href="template/cover.css">
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -25,17 +25,6 @@
         </nav>
     </header>
 
-    <main id="cover">
-        <ul id="about"></ul>
-        <ul id="img"></ul>
-        <footer>
-            <p>
-                Author <b id="author"></b><br />
-                Email <a id="email"></a>
-            </p>
-        </footer>
-    </main>
-
     <main id="things" hidden></main>
     <script type="text/javascript">
         document.addEventListener("DOMContentLoaded", function () {
@@ -50,6 +39,17 @@
             thingsJSON('json/computer.json');
         });
     </script>
+
+    <main id="cover">
+        <ul id="about"></ul>
+        <ul id="img"></ul>
+        <footer>
+            <p>
+                Author <b id="author"></b><br />
+                Email <a id="email"></a>
+            </p>
+        </footer>
+    </main>
     <script src="template/org.js"></script>
 </body>
 
