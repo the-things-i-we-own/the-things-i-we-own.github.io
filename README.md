@@ -69,15 +69,13 @@ xxx-large | xx-large | x-large | large | medium | small | x-small | xx-small | x
       "org" : "___",
       "name" : "___",
       "type" : "___",
-      "description" : "___",
-      "url" : "___"
+      "description" : "___"
     },
     {
       "org" : "___",
       "name" : "___",
       "type" : "___",
-      "description" : "___",
-      "url" : "___"
+      "description" : "___"
     }
   ]
 }
