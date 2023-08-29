@@ -1,10 +1,30 @@
 # The Things I (We) Own
 **所有するもの** を *カテゴリー・状態* ごとに 整理して記録する
 
-## [index.json](index.json)
-ページタイトル・説明文などのメタ情報を記述
+* [index.json](index.json)
+ページタイトル・説明文 などのメタ情報を記述
 
-### 例
+```
+"title" : "The Things I (We) Own",
+"description" : "このページに、私（わたしたち）が所有するもの を 用途・入手経路 ごとに 整理して記録します。",
+"author" : "creative-community.space",
+"email" : "pehu@creative-community.space",
+"type" : "website",
+"twitter" : "@pe_hu_",
+"card" : "summary",
+"src" : "icon.png",
+"icon" : "icon.png",
+```
+
+* [index.js](template/index.js)
+JSONファイルから要素を生成するJavaScript
+* [style.css](template/style.css)
+ページをスタイリングするCSS
+
+---
+## org
+絞り込み項目をJSONに記述
+
 | id | name | info |
 |:-----------|:---------|:----|
 | bought | 購入物 | 購入したもの、外注して制作したもの、など |
@@ -13,41 +33,58 @@
 | made | 制作物 | 作ったもの、出来たもの、など |
 | other | その他 | 資料や書類など、上記のカテゴリーに当てはまらないもの |
 
-* 
-
-***
-
-JavaScript
-## [script.js](script.js)
-セレクター要素内に生成する オプション要素 を設定する
-
-* セレクター要素 の name属性値 と同じ 変数 に 値と表示するテキストを オブジェクト形式 で 記述
-* DOMContentLoaded イベント に select(変数名, "変数名") を設定
-
-### 例
-| Categories | カテゴリー | |
-|:-----|:-------|:----|
-| computer | Computer Device | パソコン周辺機器 |
-| furniture | Furniture | 家具・什器 |
-| goods | Home Goods | 生活・日用品 |
-| listening | Sound Equipment | 音響機材 |
-| printing | Print Equipment | 印刷機・用紙 |
-| shopping | Register & Shipping Supplies | 物販・梱包用品 |
-| stationery | Stationery & Tools | 文房具・工具 |
-| viewing | Video Equipment | 映像・撮影機器 |
-| www | Web & Digital Contents | ウェブサービス・デジタルコンテンツ |
-
-* let result_txt に 絞り込み後に ヒット数 と合わせて表示するテキストを設定
-
-
-***
-
-Stylesheet
-[index.css](../css/index.css)
+* [org.js](template/org.js)
+絞り込みを実装するJavaScript
 
 ---
-## [style.css](style.css)
-ページを独自にスタイリングする
+## cover
+絞り込み項目をJSONに記述
+```
+{
+  "org" : "絞り込みID",
+  "size" : "画像サイズ",
+  "x" : "横軸(%)",
+  "y" : "縦軸(%)",
+  "src" : "画像URL"
+}
+```
+* [cover.css](template/cover.css)
+カバー画像をスタイリングするCSS
+* size
+xxx-large | xx-large | x-large | large | medium | small | x-small | xx-small | xxx-small
+* x | y
+それぞれ 50% が 中央 | x 0% が 左端 : 100% が 右端 | y 0% が 上端 100% が 下端
+
+
+***
+### 〇〇.json
+
+```
+{
+  "id" : "___",
+  "value" : "___",
+
+  "things" : [
+    {
+      "org" : "___",
+      "name" : "___",
+      "type" : "___",
+      "description" : "___",
+      "url" : "___"
+    },
+    {
+      "org" : "___",
+      "name" : "___",
+      "type" : "___",
+      "description" : "___",
+      "url" : "___"
+    }
+  ]
+}
+```
+
+* [things.js](template/things.js)
+JSONファイルからリストを生成するJavaScript
 
 ***
 ## [the-things-i-we-own.github.io](https://the-things-i-we-own.github.io/)
