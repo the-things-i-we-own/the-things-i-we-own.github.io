@@ -1,7 +1,6 @@
 'use strict'
 
-async function coverJson() {
-    const requestURL = '../json/cover.json';
+async function coverJson(requestURL) {
     const request = new Request(requestURL);
     const response = await fetch(request);
     const jsonIndex = await response.text();
