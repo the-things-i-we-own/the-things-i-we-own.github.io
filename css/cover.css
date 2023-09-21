@@ -1,31 +1,55 @@
-#cover,
-#img {
+#cover {
     position: relative;
     overflow: hidden;
 }
 
-#about {
-    position: absolute;
-    overflow: auto;
+#cover,
+#readme,
+#img {
     width: 100%;
-    height: 75%;
+}
+
+#readme,
+#img {
+    height: 100%;
+}
+
+#readme,
+#img,
+#img li {
+    position: absolute;
+}
+
+#readme  {
+    font-size: 95%;
+    font-weight: 500;
+    padding: 0.5rem;
+    margin: 0;
+    overflow: auto;
     z-index: 1;
 }
 
+#img,
+#img li {
+    transform: translate(-50%, -50%);
+    padding: 0;
+    margin: 0;
+}
+
 #img {
-    margin: auto;
-    width: 100%;
+    pointer-events: none;
+    user-select: none;
+    top: 50%;
+    left: 50%;
     max-width: 1000px;
-    height: 100%;
+    z-index: 5;
 }
 
 #img li {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    z-index: -1;
+    list-style: none inside;
 }
 
 #img li.xxx-large {
@@ -71,14 +95,6 @@
 #img li.xxx-small {
     width: 2.5rem;
     height: 2.5rem;
-}
-
-footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 1;
 }
 
 @media screen and (max-width: 550px) {

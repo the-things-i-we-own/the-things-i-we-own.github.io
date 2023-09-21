@@ -13,23 +13,21 @@ async function thingsJSON(requestURL = '') {
         const thingsP = document.createElement('p');
 
         thingsUL.id = obj.id;
-        thingsP.innerHTML = `<strong>${obj.value}</strong>`;
+        thingsP.textContent = `${obj.value}`;
 
         mainThings.appendChild(thingsUL);
         thingsUL.appendChild(thingsP);
 
-        const thingsID = document.querySelector(`#${obj.id}`);
         const thingAll = obj.things;
-
         for (const thing of thingAll) {
             const thingLi = document.createElement('li');
             thingLi.setAttribute("data-org", thing.org);
             thingLi.innerHTML = `
             <u>${thing.type}</u>
-            <b>${thing.name}</b><br/>
+            <b>${thing.name}</b>
             <small>${thing.description}</small>
             `
-            thingsID.appendChild(thingLi);
+            thingsUL.appendChild(thingLi);
         }
     }
 }

@@ -5,29 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="format-detection" content="telephone=no">
-    <script async src="template/index.js"></script>
-    <script defer src="template/things.js"></script>
-    <link rel="stylesheet" type="text/css" href="template/style.css">
-    <link rel="stylesheet" type="text/css" href="template/cover.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP&family=IBM+Plex+Serif:ital,wght@1,200&display=swap">
-</head>
 
-<body>
-    <header>
-        <h1 id="title">The Things I (We) Own</h1>
-        <p id="description" onclick="changeHidden()">所有するもの を カテゴリー・状態 ごとに 整理して記録する</p>
-        <nav id="org">
-            <input type="radio" name="org" id="all" value="all" checked>
-            <label for="all">Index</label>
-        </nav>
-    </header>
+    <!--meta-->
+    <meta content="website" property="og:type">
+    <title>The Things I (We) Own</title>
+    <meta content="The Things I (We) Own" property="og:title">
+    <meta content="このページに、私（わたしたち）が所有するもの を 用途・入手経路 ごとに 整理して記録します。" name="description">
+    <meta content="このページに、私（わたしたち）が所有するもの を 用途・入手経路 ごとに 整理して記録します。" name="og:description">
+    <meta content="creative-community.space" name="author">
+    <meta content="pehu@creative-community.space" name="reply-to">
 
-    <main id="things" hidden></main>
-    <script type="text/javascript" defer>
+    <!--meta for Twitter-->
+    <meta content="summary" name="twitter:card">
+    <meta content="https://the-things-i-we-own.github.io/" property="og:url">
+    <meta content="https://the-things-i-we-own.github.io/cover.png" property="og:image">
+    <meta content="https://the-things-i-we-own.github.io/cover.png" name="twitter:image:src">
+
+    <script src="js/script.js"></script>
+    <script src="js/org.js"></script>
+    <script src="js/cover.js"></script>
+    <script src="index.js"></script>
+    <script type="text/javascript">
         document.addEventListener("DOMContentLoaded", function () {
+            headToBody()
+            readmeMD('README.md', '#readme')
+
             thingsJSON('json/furniture.json');
             thingsJSON('json/goods.json');
             thingsJSON('json/printing.json');
@@ -40,17 +42,49 @@
         });
     </script>
 
+    <link rel="icon" href="icon.png">
+    <link rel="stylesheet" type="text/css" href="css/org.css">
+    <link rel="stylesheet" type="text/css" href="css/cover.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="title">The Things I (We) Own</h1>
+        <h2 id="description" onclick="changeMain()">所有するもの を カテゴリー・状態 ごとに 整理して記録する</h2>
+        <nav id="org">
+            <input id="all" value="all" type="radio" name="org" checked>
+            <label for="all" data-txt="所有するものを絞り込む項目について">目次</label>
+            <input id="bought" value="bought" type="radio" name="org">
+            <label for="bought" data-txt="購入したもの、外注して制作したもの、など">購入物</label>
+            <input id="gift" value="gift" type="radio" name="org">
+            <label for="gift" data-txt="これまでに関わった人たちから頂いたもの、など">頂き物</label>
+            <input id="free" value="free" type="radio" name="org">
+            <label for="free" data-txt="拾ったもの、無料で配布されていたもの、など">拾得物</label>
+            <input id="made" value="made" type="radio" name="org">
+            <label for="made" data-txt="作ったもの、出来たもの、など">制作物</label>
+        </nav>
+    </header>
     <main id="cover">
-        <ul id="about"></ul>
+        <h3 id="readme"></h3>
         <ul id="img"></ul>
-        <footer>
-            <p>
-                Author <b id="author"></b><br />
-                Email <a id="email"></a>
-            </p>
-        </footer>
     </main>
-    <script src="template/org.js"></script>
+    <main id="things" hidden>
+        <ul id="about"></ul>
+    </main>
+    <footer>
+        <p>
+            <span>Author</span> <b id="author"></b><br />
+            <span>Email</span> <a id="email"></a>
+        </p>
+        <p id="lastModified">
+            <span>Last Modified</span> <time></time><br />
+            <span>Links</span>
+            <a href="https://www.are.na/cc-group/index-of-org" target="_blank">Are.na</a>
+            <a href="https://github.com/the-things-i-we-own/" target="_blank">GitHub</a>
+        </p>
+    </footer>
 </body>
 
 </html>
