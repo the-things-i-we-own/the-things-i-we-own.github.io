@@ -27,8 +27,9 @@
     <script src="index.js"></script>
     <script type="text/javascript">
         document.addEventListener("DOMContentLoaded", function () {
-            headToBody()
-            readmeMD('README.md', '#readme')
+            headToBody();
+            coverJson();
+            readmeMD('README.md', '#readme');
 
             thingsJSON('json/furniture.json');
             thingsJSON('json/goods.json');
