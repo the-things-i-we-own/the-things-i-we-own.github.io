@@ -56,7 +56,7 @@
         <h1 id="title">The Things I (We) Own</h1>
         <h2 id="description" onclick="changeMain()">所有するもの を カテゴリー・状態 ごとに 整理して記録する</h2>
         <nav id="org">
-            <input id="all" value="all" type="radio" name="org" checked>
+            <input id="all" value="all" type="radio" name="org" checked onclick="changeMain()">
             <label for="all" data-txt="所有するものを絞り込む項目について">目次</label>
             <input id="bought" value="bought" type="radio" name="org">
             <label for="bought" data-txt="購入したもの、外注して制作したもの、など">購入物</label>
@@ -68,7 +68,7 @@
             <label for="made" data-txt="作ったもの、出来たもの、など">制作物</label>
         </nav>
     </header>
-    <main id="cover">
+    <main id="cover" onclick="changeMain()">
         <h3 id="readme"></h3>
         <ul id="img"></ul>
     </main>
