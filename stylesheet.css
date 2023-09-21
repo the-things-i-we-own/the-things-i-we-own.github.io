@@ -44,6 +44,10 @@ a,
   color: #ddd;
 }
 
+#readme {
+  mix-blend-mode: difference;
+}
+
 a:hover,
 #org input[type="radio"]:checked+label {
   color: #000;
