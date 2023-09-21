@@ -24,5 +24,3 @@ function coverORG(obj) {
         cover.appendChild(coverLi);
     }
 }
-
-coverJson();
