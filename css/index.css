@@ -46,6 +46,7 @@
 #things ul li u {
     float: right;
     font-size: 55%;
+    margin-bottom: 0.25rem;
 }
 
 #things ul li b {
