@@ -13,35 +13,35 @@
       {
         "org" : "bought",
         "name" : "Black＆Decker EAC800",
-        "type" : "マルチツール",
+        "type" : "工具",
         "description" : "[KAHM] コード式ボディ",
         "url" : "___"
       },
       {
         "org" : "bought",
         "name" : "Black＆Decker EDD183",
-        "type" : "マルチツール",
+        "type" : "工具",
         "description" : "[KAHM] ドリルドライバー ヘッドアタッチメント",
         "url" : "___"
       },
       {
         "org" : "bought",
         "name" : "のこぎり",
-        "type" : "のこぎり",
+        "type" : "工具",
         "description" : "___",
         "url" : "___"
       },
       {
         "org" : "bought",
         "name" : "モンキレンチ",
-        "type" : "_モンキレンチ__",
+        "type" : "工具",
         "description" : "[UR-4.5-WW]",
         "url" : "___"
       },
       {
         "org" : "bought",
         "name" : "トルクレンチ",
-        "type" : "トルクレンチ",
+        "type" : "工具",
         "description" : "[UR-4.5-WW]",
         "url" : "___"
       },
