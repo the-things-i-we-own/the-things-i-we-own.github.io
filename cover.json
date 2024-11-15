@@ -1,0 +1,137 @@
+{
+    "cover": [
+        {
+            "org": "bought",
+            "size": "xxx-large",
+            "x": "70%",
+            "y": "30%",
+            "src": "https://d2w9rnfcy7mm78.cloudfront.net/23466183/original_3990c93b89a00c0b9de515c8b7d33b24.png?1693885868?bc=0"
+        },
+        {
+            "org": "bought",
+            "size": "xx-large",
+            "x": "75%",
+            "y": "75%",
+            "src": "https://d2w9rnfcy7mm78.cloudfront.net/23466184/original_03700b52fd66ece0ee83dbfc868330ea.png?1693885868?bc=0"
+        },
+        {
+            "org": "bought",
+            "size": "x-large",
+            "x": "20%",
+            "y": "65%",
+            "src": "https://d2w9rnfcy7mm78.cloudfront.net/23466133/original_0ebc909f90b821b7ffcd724132bc0ae1.png?1693885599?bc=0"
+        },
+        {
+            "org": "free",
+            "size": "medium",
+            "x": "15%",
+            "y": "20%",
+            "src": "https://d2w9rnfcy7mm78.cloudfront.net/23466134/original_a7e471f40e64e729d07ea150fe95b30a.png?1693885599?bc=0"
+        },
+        {
+            "org": "bought",
+            "size": "x-large",
+            "x": "30%",
+            "y": "75%",
+            "src": "https://d2w9rnfcy7mm78.cloudfront.net/23466195/original_a4b53db7bcdf95a643af5b53dc76f24a.png?1693885869?bc=0"
+        },
+        {
+            "org": "bought",
+            "size": "xx-large",
+            "x": "65%",
+            "y": "55%",
+            "src": "https://d2w9rnfcy7mm78.cloudfront.net/23466192/original_0114713ad6d501bf6a2246c5bdbe0fe9.png?1693885868?bc=0"
+        },
+        {
+            "org": "bought",
+            "size": "large",
+            "x": "35%",
+            "y": "25%",
+            "src": "https://d2w9rnfcy7mm78.cloudfront.net/23466136/original_05b83ea99be09abfdf4feb07a8b45141.png?1693885600?bc=0"
+        },
+        {
+            "org": "made",
+            "size": "large",
+            "x": "40%",
+            "y": "45%",
+            "src": "https://d2w9rnfcy7mm78.cloudfront.net/23466191/original_596c35d7db0b3b71b2c5812c81548a43.png?1693885868?bc=0"
+        },
+        {
+            "org": "made",
+            "size": "large",
+            "x": "60%",
+            "y": "70%",
+            "src": "https://d2w9rnfcy7mm78.cloudfront.net/23466196/original_cdf8251fcdcf7fc56ff808af0224bd0a.png?1693885868?bc=0"
+        },
+        {
+            "org": "bought",
+            "size": "medium",
+            "x": "25%",
+            "y": "45%",
+            "src": "https://d2w9rnfcy7mm78.cloudfront.net/23466189/original_47af1b49aa837ef11d8a8286f7d7984b.png?1693885868?bc=0"
+        },
+        {
+            "org": "bought",
+            "size": "xxx-small",
+            "x": "75%",
+            "y": "30%",
+            "src": "https://d2w9rnfcy7mm78.cloudfront.net/23466186/original_714aecd5ade6cbdb2fb3dde3795d2c3d.png?1693885868?bc=0"
+        },
+        {
+            "org": "gift",
+            "size": "xx-small",
+            "x": "80%",
+            "y": "40%",
+            "src": "https://d2w9rnfcy7mm78.cloudfront.net/23466188/original_201c7b9304794de158f4fa0d6e8f5c7c.png?1693885868?bc=0"
+        },
+        {
+            "org": "gift",
+            "size": "small",
+            "x": "35%",
+            "y": "25%",
+            "src": "https://d2w9rnfcy7mm78.cloudfront.net/23466193/original_b0ae320f6a7d76e50f66db655b153225.png?1693885868?bc=0"
+        },
+        {
+            "org": "bought",
+            "size": "x-small",
+            "x": "90%",
+            "y": "30%",
+            "src": "https://d2w9rnfcy7mm78.cloudfront.net/23466190/original_dc1232abf8f8750c18a7b90b791c316d.png?1693885868?bc=0"
+        },
+        {
+            "org": "made",
+            "size": "x-small",
+            "x": "70%",
+            "y": "40%",
+            "src": "https://d2w9rnfcy7mm78.cloudfront.net/23249548/original_ebb0bfff0c9ce3e4e17a10ab0962305f.png?1692606906?bc=0"
+        },
+        {
+            "org": "gift",
+            "size": "xx-small",
+            "x": "45%",
+            "y": "55%",
+            "src": "https://d2w9rnfcy7mm78.cloudfront.net/23249534/original_537ca71a6b4e0a8bb03f390a41b1c3d0.png?1692606905?bc=0"
+        },
+        {
+            "org": "bought",
+            "size": "xxx-small",
+            "x": "40%",
+            "y": "75%",
+            "src": "https://d2w9rnfcy7mm78.cloudfront.net/23249539/original_1a47add32e3c8976c672a293e02c70ec.png?1692606906?bc=0"
+        },
+        {
+            "org": "free",
+            "size": "x-small",
+            "x": "35%",
+            "y": "55%",
+            "src": "https://d2w9rnfcy7mm78.cloudfront.net/23466137/original_4c3fbf4d8b16a4a7621bac9712b4341d.png?1693885599?bc=0"
+        },
+        {
+            "org": "free",
+            "size": "xx-small",
+            "x": "65%",
+            "y": "75%",
+            "src": "https://d2w9rnfcy7mm78.cloudfront.net/23249552/original_896a6bebaa7df225979030e6297bec2c.png?1692606907?bc=0"
+        }
+    ]
+}

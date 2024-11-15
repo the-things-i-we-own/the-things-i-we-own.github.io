@@ -1,0 +1,72 @@
+#title,
+#things ul p,
+#things ul li b,
+footer p * {
+  font-family: 'Times New Roman', 'times', serif;
+  font-weight: 500;
+  font-stretch: condensed;
+  font-variant: common-ligatures tabular-nums;
+  transform: scale(1, 1.1);
+  letter-spacing: -0.1rem;
+  word-spacing: -.1ch;
+}
+
+#description,
+#org label,
+#things ul li u,
+#things ul li small,
+#readme,
+footer p span {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#things ul u {
+  border: solid 1px;
+  border-radius: 0.5rem;
+  padding: 0.125rem 0.25rem;
+  text-decoration: none;
+}
+
+#org label:not(:first-of-type)::before {
+  content: "|";
+  color: #000;
+  font-weight: 900;
+  margin: 0 0.5rem;
+}
+
+#org input[type="radio"]+label:hover {
+  text-decoration: #000 underline double;
+}
+
+a,
+#org input[type="radio"]:not(:checked)+label,
+#readme {
+  color: #ddd;
+}
+
+a:hover,
+#org input[type="radio"]:checked+label {
+  color: #000;
+}
+
+header {
+  border-bottom: dotted #ddd 1px;
+}
+
+footer {
+  border-top: dotted #ddd 1px;
+}
+
+#things::-webkit-scrollbar {
+    width: 2rem;
+    height: 2rem;
+}
+
+#things::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+#things::-webkit-scrollbar-thumb {
+  border-radius: 2rem;
+  background: #ddd;
+}
