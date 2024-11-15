@@ -9,35 +9,11 @@
 <input id="__" value="__" type="radio" name="org">
 <label for="__" data-txt="この項目について">項目名</label>
 ```
-* [index.js](js/script.js) HEAD内のメタデータなどからBODYに要素を生成
-* [org.js](js/org.js) 絞り込みを実装するJavaScript
-* [org.css](css/org.css) ページ全体をスタイリングするCSS
+
+* [index.js](js/index.js) HEAD内のメタデータなどからBODYに要素を生成・JSONファイルから要素を生成
+* [index.css](css/index.css) 所有するものリストをスタイリングするCSS
 
 ***
-
-[cover.json](json/cover.json)
-* ページトップに表示する画像データを追加
-```
-    {
-      "org": "項目の値",
-      "size": "サイズの値",
-      "x": "横軸(%)",
-      "y": "縦軸(%)",
-      "src": "画像URL"
-    }
-    
-```
-* size
-xxx-large | xx-large | x-large | large | medium | small | x-small | xx-small | xxx-small
-* x | y
-それぞれ 50% が 中央 | x 0% が 左端 : 100% が 右端 | y 0% が 上端 100% が 下端
-
-
-* [cover.js](css/cover.js) JSONからカバー画像を生成
-* [cover.css](css/cover.css) カバー画像をスタイリングするCSS
-
-***
-
 ## 〇〇.json
 所有するもののデータを追加するJSONファイル
 
@@ -62,8 +38,33 @@ xxx-large | xx-large | x-large | large | medium | small | x-small | xx-small | x
   ]
 }
 ```
-* [index.js](index.js) JSONファイルから要素を生成
-* [index.css](css/index.css) 所有するものリストをスタイリングするCSS
+
+[cover.json](json/cover.json)
+* ページトップに表示する画像データを追加
+
+```
+    {
+      "org": "項目の値",
+      "size": "サイズの値",
+      "x": "横軸(%)",
+      "y": "縦軸(%)",
+      "src": "画像URL"
+    }
+    
+```
+* size
+xxx-large | xx-large | x-large | large | medium | small | x-small | xx-small | xxx-small
+* x | y
+それぞれ 50% が 中央 | x 0% が 左端 : 100% が 右端 | y 0% が 上端 100% が 下端
+
+
+* [cover.js](css/cover.js) JSONからカバー画像を生成
+* [cover.css](css/cover.css) カバー画像をスタイリングするCSS
+
+***
+
+* [org.js](js/org.js) 絞り込みを実装するJavaScript
+* [org.css](css/org.css) ページ全体をスタイリングするCSS
 
 ***
 

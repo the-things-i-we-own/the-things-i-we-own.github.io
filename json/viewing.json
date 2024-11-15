@@ -1,155 +1,153 @@
 {
-    "id" : "viewing",
-    "value" : "映像・撮影機材",
-  
-    "things" : [
-      {
-        "org" : "bought",
-        "name" : "Sony BDP-6700",
-        "type" : "Blu-ray/DVDプレーヤー",
-        "description" : "[UR-7.5-TK] Blu-ray/DVDディスクの再生、YouTubeなどのスクリーニング・スマートフォン／タブレットのミラーリングも可能",
-        "url" : "https://www.sony.jp/bd-player/products/BDP-S6700/"
-      },
-      {
-        "org" : "bought",
-        "name" : "WiMiUS S4",
-        "type" : "プロジェクター",
-        "description" : "[UR-7.5-WW] ネイティブ1080P フルHD 4K対応 5G&2.4G二重周波数 Bluetooth ズーム機能",
-        "url" : "___"
-      },
-      {
-        "org" : "free",
-        "name" : "HDMIケーブル",
-        "type" : "3m",
-        "description" : "[UR-7.5-WW] HDMI(オス⇄オス) 白 ×1",
-        "url" : "___"
-      },
-      {
-        "org" : "bought",
-        "name" : "HDMIケーブル",
-        "type" : "3m",
-        "description" : "[UR-7.5-WW] HDMI(オス⇄オス) ×1",
-        "url" : "___"
-      },
-      {
-        "org" : "bought",
-        "name" : "HDMIケーブル",
-        "type" : "2m",
-        "description" : "[UR-7.5-WW] HDMI(オス⇄オス) ×2",
-        "url" : "___"
-      },
-      {
-        "org" : "bought",
-        "name" : "HDMIケーブル",
-        "type" : "1m",
-        "description" : "[UR-7.5-WW] HDMI(オス⇄オス) ×1",
-        "url" : "___"
-      },
-      {
-        "org" : "free",
-        "name" : "HDMIケーブル",
-        "type" : "1m",
-        "description" : "[UR-7.5-WW] HDMI(オス⇄オス) 白 ×1",
-        "url" : "___"
-      },
-      {
-        "org" : "bought",
-        "name" : "HDMI(タイプA)メス-HDMI(タイプA)メス",
-        "type" : "HDMI コネクタ",
-        "description" : "[UR-7.5-WW] HDMIケーブルどうしを接続し、延長する中継アダプター",
-        "url" : "___"
-      },
-      {
-        "org" : "gift",
-        "name" : "HDMI 10cm 延長ケーブル",
-        "type" : "HDMI コネクタ",
-        "description" : "[UR-7.5-WW] HDMI(タイプA)オス-HDMI(タイプA)メス x4",
-        "url" : "___"
-      },
-      {
-        "org" : "bought",
-        "name" : "Type C オス→ HDMI タイプA メス",
-        "type" : "変換アダプター",
-        "description" : "[UR-D-T] USB C HDMI Type-C / Thunderbolt 3 TypeC HDMI(単方向)",
-        "url" : "___"
-      },
-      {
-        "org" : "bought",
-        "name" : "VT−R14M70",
-        "type" : "テレビデオ",
-        "description" : "[UR-7.5-TK] 無印良品 14インチ",
-        "url" : "___"
-      },
-      {
-        "org" : "bought",
-        "name" : "RCA/AV → HDMI",
-        "type" : "変換アダプター",
-        "description" : "[UR-7.5-WW] コンポジット(黄)映像を、HDMIに変換する",
-        "url" : "___"
-      },
-      {
-        "org" : "bought",
-        "name" : "HDMI → RCA/AV",
-        "type" : "変換アダプター",
-        "description" : "[UR-7.5-WW] HDMI入力をコンポジット出力へ変換する",
-        "url" : "___"
-      },
-      {
-        "org" : "bought",
-        "name" : "GoPro HERO7 Black",
-        "type" : "[UR-4.5-TK] アクティブカメラ",
-        "description" : "HERO7 Black があなたの動きを予測し、カメラのブレを補正することで、驚くほど滑らかな映像を撮影できます。",
-        "url" : "https://www.tajima-motor.com/gopro/product/hero7black/"
-      },
-      {
-        "org" : "bought",
-        "name" : "PC⇄GoProケーブル",
-        "type" : "Micro HDMI-HDMI",
-        "description" : "[UR-4.5-TK] Micro HDMI(オス)-HDMI(オス)",
-        "url" : "___"
-      },
-      {
-        "org" : "gift",
-        "name" : "LG-R105",
-        "type" : "360度 VR カメラ",
-        "description" : "[UR-4.5-TK] スマートフォンから遠隔操作・Google ストリートビューへの投稿可能",
-        "url" : "https://www.lg.com/us/mobile-accessories/lg-LGR105AVRZTS-360-cam"
-      },
-      {
-        "org" : "bought",
-        "name" : "Ulanzi G94",
-        "type" : "カメラマウント",
-        "description" : "[UR-4.5-TK] カメラマウントの挟める範囲：12.5mm〜64.5mm。64.5mmまで【360度回転可能】",
-        "url" : "___"
-      },
-      {
-        "org" : "bought",
-        "name" : "Ulanzi U-Pad II",
-        "type" : "タブレット用固定ホルダー",
-        "description" : "[UR-4.5-TK] iPadタブレット三脚アダプター iPadタブレット装着ホルダー PC三脚固定ホルダー",
-        "url" : "___"
-      },
-      {
-        "org" : "bought",
-        "name" : "Neewer 40089654",
-        "type" : "卓上クランプ",
-        "description" : "[UR-4.5-TK] サスペンションブームシザーマウントスタンドホルダー",
-        "url" : "___"
-      },
-      {
-        "org" : "bought",
-        "name" : "写真撮影照明キット",
-        "type" : "ライト",
-        "description" : "[UR-4.5] ソフトボックス + LEDライト 50×70cm 135W 色温度 5500K 調整可能",
-        "url" : "___"
-      },
-      {
-        "org" : "bought",
-        "name" : "uniojo T5886HAA",
-        "type" : "ネットワークカメラ",
-        "description" : "[UR-4.5-TK]",
-        "url" : "https://fccid.io/TW5T5886HAA/User-Manual/15-T5886HAA-UserMan-3659704"
-      }
-    ]
-  }
-  
+  "id": "viewing",
+  "value": "映像・撮影機材",
+  "things": [
+    {
+      "org": "bought",
+      "name": "Sony BDP-6700",
+      "type": "Blu-ray/DVDプレーヤー",
+      "description": "[UR-7.5-TK] Blu-ray/DVDディスクの再生、YouTubeなどのスクリーニング・スマートフォン／タブレットのミラーリングも可能",
+      "url": "https://www.sony.jp/bd-player/products/BDP-S6700/"
+    },
+    {
+      "org": "bought",
+      "name": "WiMiUS S4",
+      "type": "プロジェクター",
+      "description": "[UR-7.5-WW] ネイティブ1080P フルHD 4K対応 5G&2.4G二重周波数 Bluetooth ズーム機能",
+      "url": "___"
+    },
+    {
+      "org": "free",
+      "name": "HDMIケーブル",
+      "type": "3m",
+      "description": "[UR-7.5-WW] HDMI(オス⇄オス) 白 ×1",
+      "url": "___"
+    },
+    {
+      "org": "bought",
+      "name": "HDMIケーブル",
+      "type": "3m",
+      "description": "[UR-7.5-WW] HDMI(オス⇄オス) ×1",
+      "url": "___"
+    },
+    {
+      "org": "bought",
+      "name": "HDMIケーブル",
+      "type": "2m",
+      "description": "[UR-7.5-WW] HDMI(オス⇄オス) ×2",
+      "url": "___"
+    },
+    {
+      "org": "bought",
+      "name": "HDMIケーブル",
+      "type": "1m",
+      "description": "[UR-7.5-WW] HDMI(オス⇄オス) ×1",
+      "url": "___"
+    },
+    {
+      "org": "free",
+      "name": "HDMIケーブル",
+      "type": "1m",
+      "description": "[UR-7.5-WW] HDMI(オス⇄オス) 白 ×1",
+      "url": "___"
+    },
+    {
+      "org": "bought",
+      "name": "HDMI(タイプA)メス-HDMI(タイプA)メス",
+      "type": "HDMI コネクタ",
+      "description": "[UR-7.5-WW] HDMIケーブルどうしを接続し、延長する中継アダプター",
+      "url": "___"
+    },
+    {
+      "org": "gift",
+      "name": "HDMI 10cm 延長ケーブル",
+      "type": "HDMI コネクタ",
+      "description": "[UR-7.5-WW] HDMI(タイプA)オス-HDMI(タイプA)メス x4",
+      "url": "___"
+    },
+    {
+      "org": "bought",
+      "name": "Type C オス→ HDMI タイプA メス",
+      "type": "変換アダプター",
+      "description": "[UR-D-T] USB C HDMI Type-C / Thunderbolt 3 TypeC HDMI(単方向)",
+      "url": "___"
+    },
+    {
+      "org": "bought",
+      "name": "VT−R14M70",
+      "type": "テレビデオ",
+      "description": "[UR-7.5-TK] 無印良品 14インチ",
+      "url": "___"
+    },
+    {
+      "org": "bought",
+      "name": "RCA/AV → HDMI",
+      "type": "変換アダプター",
+      "description": "[UR-7.5-WW] コンポジット(黄)映像を、HDMIに変換する",
+      "url": "___"
+    },
+    {
+      "org": "bought",
+      "name": "HDMI → RCA/AV",
+      "type": "変換アダプター",
+      "description": "[UR-7.5-WW] HDMI入力をコンポジット出力へ変換する",
+      "url": "___"
+    },
+    {
+      "org": "bought",
+      "name": "GoPro HERO7 Black",
+      "type": "[UR-4.5-TK] アクティブカメラ",
+      "description": "HERO7 Black があなたの動きを予測し、カメラのブレを補正することで、驚くほど滑らかな映像を撮影できます。",
+      "url": "https://www.tajima-motor.com/gopro/product/hero7black/"
+    },
+    {
+      "org": "bought",
+      "name": "PC⇄GoProケーブル",
+      "type": "Micro HDMI-HDMI",
+      "description": "[UR-4.5-TK] Micro HDMI(オス)-HDMI(オス)",
+      "url": "___"
+    },
+    {
+      "org": "gift",
+      "name": "LG-R105",
+      "type": "360度 VR カメラ",
+      "description": "[UR-4.5-TK] スマートフォンから遠隔操作・Google ストリートビューへの投稿可能",
+      "url": "https://www.lg.com/us/mobile-accessories/lg-LGR105AVRZTS-360-cam"
+    },
+    {
+      "org": "bought",
+      "name": "Ulanzi G94",
+      "type": "カメラマウント",
+      "description": "[UR-4.5-TK] カメラマウントの挟める範囲：12.5mm〜64.5mm。64.5mmまで【360度回転可能】",
+      "url": "___"
+    },
+    {
+      "org": "bought",
+      "name": "Ulanzi U-Pad II",
+      "type": "タブレット用固定ホルダー",
+      "description": "[UR-4.5-TK] iPadタブレット三脚アダプター iPadタブレット装着ホルダー PC三脚固定ホルダー",
+      "url": "___"
+    },
+    {
+      "org": "bought",
+      "name": "Neewer 40089654",
+      "type": "卓上クランプ",
+      "description": "[UR-4.5-TK] サスペンションブームシザーマウントスタンドホルダー",
+      "url": "___"
+    },
+    {
+      "org": "bought",
+      "name": "写真撮影照明キット",
+      "type": "ライト",
+      "description": "[UR-4.5] ソフトボックス + LEDライト 50×70cm 135W 色温度 5500K 調整可能",
+      "url": "___"
+    },
+    {
+      "org": "bought",
+      "name": "uniojo T5886HAA",
+      "type": "ネットワークカメラ",
+      "description": "[UR-4.5-TK]",
+      "url": "https://fccid.io/TW5T5886HAA/User-Manual/15-T5886HAA-UserMan-3659704"
+    }
+  ]
+}

@@ -1,274 +1,272 @@
 {
-    "id" : "shopping",
-    "value" : "物販・梱包用品",
-  
-    "things" : [
-      {
-        "org" : "made",
-        "name" : "ハンガーラック脚",
-        "type" : "出店",
-        "description" : "[UR-7.5] 2x4＋ブラケット",
-        "url" : "___"
-      },
-      {
-        "org" : "bought",
-        "name" : "透明棒x2",
-        "type" : "出店",
-        "description" : "[UR-E] 100cm/直径2cm/空洞",
-        "url" : "___"
-      },
-      {
-        "org" : "bought",
-        "name" : "棒x2",
-        "type" : "出店",
-        "description" : "[UR-E] 150cm/165cm",
-        "url" : "___"
-      },
-      {
-        "org" : "bought",
-        "name" : "棒x5",
-        "type" : "出店",
-        "description" : "[KAHM] 150cm×4(スペーシア), 165cm(ステンレス)",
-        "url" : "___"
-      },
-      {
-        "org" : "bought",
-        "name" : "ハンガー",
-        "type" : "出店",
-        "description" : "[UR-7.5] 銀",
-        "url" : "___"
-      },
-      {
-        "org" : "bought",
-        "name" : "のぼりセット",
-        "type" : "棒/ベース",
-        "description" : "[UR-7.5/E] 伸縮可能",
-        "url" : "___"
-      },
-      {
-        "org" : "bought",
-        "name" : "非接触アルコールディスペンサー",
-        "type" : "日用品",
-        "description" : "[UR-K] 2段階調節可能,電池式(単三電池4個),360ml",
-        "url" : "___"
-      },
-      {
-        "org" : "bought",
-        "name" : "納品書",
-        "type" : "書類",
-        "description" : "[UR-4.5-WW] KOKUYO ウ-367-N ウ-341-N",
-        "url" : "___"
-      },
-      {
-        "org" : "bought",
-        "name" : "発送用厚さ測定定規",
-        "type" : "定規",
-        "description" : "[UR-4.5-WW] 厚さ1cm,2cm,2.5cm,3cm計測用",
-        "url" : "___"
-      },
-      {
-        "org" : "other",
-        "name" : "国際郵便料金表",
-        "type" : "印刷物",
-        "description" : "[UR-4.5-WW]",
-        "url" : "___"
-      },
-      {
-        "org" : "gift",
-        "name" : "ラゲッジスケール",
-        "type" : "はかり",
-        "description" : "[UR-4.5-WW] 吊り下げ式電子スケール MAX50kg",
-        "url" : "___"
-      },
-      {
-        "org" : "free",
-        "name" : "クラフト封筒",
-        "type" : "長形1号",
-        "description" : "[UR-4.5-WW] A4サイズ対応(二つ折り)",
-        "url" : "___"
-      },
-      {
-        "org" : "free",
-        "name" : "クラフト封筒",
-        "type" : "長形3号",
-        "description" : "[UR-4.5-WW] A4サイズ対応(三つ折り)",
-        "url" : "___"
-      },
-      {
-        "org" : "free",
-        "name" : "クラフト封筒",
-        "type" : "角形8号",
-        "description" : "[UR-4.5-WW] B5サイズ対応(三つ折り)",
-        "url" : "___"
-      },
-      {
-        "org" : "free",
-        "name" : "クラフト封筒",
-        "type" : "長形40号",
-        "description" : "[UR-4.5-WW] A4サイズ対応(四つ折り)",
-        "url" : "___"
-      },
-      {
-        "org" : "free",
-        "name" : "クラフト封筒",
-        "type" : "長形4号",
-        "description" : "[UR-4.5-WW] B5サイズ対応(四つ折り)",
-        "url" : "___"
-      },
-      {
-        "org" : "free",
-        "name" : "ホワイト封筒",
-        "type" : "長形4号",
-        "description" : "[UR-4.5-WW] B5サイズ対応(四つ折り)",
-        "url" : "___"
-      },
-      {
-        "org" : "free",
-        "name" : "エアメール封筒",
-        "type" : "定形郵便用",
-        "description" : "[UR-4.5-WW] 92x165mm 船便使用不可",
-        "url" : "___"
-      },
-      {
-        "org" : "free",
-        "name" : "OPP袋",
-        "type" : "A4",
-        "description" : "[UR-4.5-WW] テープ付き",
-        "url" : "___"
-      },
-      {
-        "org" : "free",
-        "name" : "OPP袋",
-        "type" : "B4",
-        "description" : "[UR-4.5-WW] テープ付き",
-        "url" : "___"
-      },
-      {
-        "org" : "free",
-        "name" : "OPP袋",
-        "type" : "8x12",
-        "description" : "[UR-4.5-WW] テープ付き",
-        "url" : "___"
-      },
-      {
-        "org" : "free",
-        "name" : "OPP袋",
-        "type" : "長方形大判",
-        "description" : "[UR-4.5-WW]",
-        "url" : "___"
-      },
-      {
-        "org" : "free",
-        "name" : "透明ポケット",
-        "type" : "A2",
-        "description" : "[UR-4.5-WW]",
-        "url" : "___"
-      },
-      {
-        "org" : "bought",
-        "name" : "ショップバッグ",
-        "type" : "紙袋",
-        "description" : "[UR-4.5-WW] 32x31.5cm 白色",
-        "url" : "___"
-      },
-      {
-        "org" : "bought",
-        "name" : "巻クラフト紙",
-        "type" : "梱包",
-        "description" : "[UR-4.5-WW] 90cm",
-        "url" : "___"
-      },
-      {
-        "org" : "bought",
-        "name" : "ストレッチフィルム 大",
-        "type" : "梱包",
-        "description" : "[UR-4.5-WW] 50cm",
-        "url" : "___"
-      },
-      {
-        "org" : "bought",
-        "name" : "ストレッチフィルム 小",
-        "type" : "梱包",
-        "description" : "[UR-4.5-WW] 30cm",
-        "url" : "___"
-      },
-      {
-        "org" : "bought",
-        "name" : "チャック付収納パック",
-        "type" : "A3",
-        "description" : "[UR-4.5-WW] 商品サイズ：40cm×50cm×0cm",
-        "url" : "___"
-      },
-      {
-        "org" : "bought",
-        "name" : "チャック付収納パック",
-        "type" : "B4",
-        "description" : "[UR-4.5-WW] 商品サイズ：28cm×40cm×0cm",
-        "url" : "___"
-      },
-      {
-        "org" : "bought",
-        "name" : "チャック付収納パック",
-        "type" : "A4",
-        "description" : "[UR-4.5-WW] 商品サイズ：24cm×34cm×0cm",
-        "url" : "___"
-      },
-      {
-        "org" : "bought",
-        "name" : "ジップ付き袋",
-        "type" : "L",
-        "description" : "[UR-4.5-WW] 27x28cm",
-        "url" : "___"
-      },
-      {
-        "org" : "bought",
-        "name" : "ジップ付き袋",
-        "type" : "M",
-        "description" : "[UR-4.5-WW] 18x20.5cm",
-        "url" : "___"
-      },
-      {
-        "org" : "bought",
-        "name" : "ジップ付き袋",
-        "type" : "S",
-        "description" : "[UR-4.5-WW] 12.7x17.7cm",
-        "url" : "___"
-      },
-      {
-        "org" : "bought",
-        "name" : "ジップ付き袋",
-        "type" : "SS",
-        "description" : "[UR-4.5-WW] 8.2x16.5cm",
-        "url" : "___"
-      },
-      {
-        "org" : "free",
-        "name" : "藁半紙",
-        "type" : "梱包",
-        "description" : "[UR-4.5-WW] クッション材として荷物に入っていた紙を保管",
-        "url" : "___"
-      },
-      {
-        "org" : "free",
-        "name" : "気泡緩衝材",
-        "type" : "梱包",
-        "description" : "[UR-4.5-WW] 届いた荷物に入っていたプチプチ",
-        "url" : "___"
-      },
-      {
-        "org" : "free",
-        "name" : "クッション材",
-        "type" : "梱包",
-        "description" : "[UR-4.5-WW] 届いた荷物に入っていたクラフト紙製",
-        "url" : "___"
-      },
-      {
-        "org" : "free",
-        "name" : "ダンボール各種",
-        "type" : "梱包",
-        "description" : "[UR-4.5-WW] 届いた段ボールのうち綺麗なものを発送時に再利用",
-        "url" : "___"
-      }
-    ]
-  }
-  
+  "id": "shopping",
+  "value": "物販・梱包用品",
+  "things": [
+    {
+      "org": "made",
+      "name": "ハンガーラック脚",
+      "type": "出店",
+      "description": "[UR-7.5] 2x4＋ブラケット",
+      "url": "___"
+    },
+    {
+      "org": "bought",
+      "name": "透明棒x2",
+      "type": "出店",
+      "description": "[UR-E] 100cm/直径2cm/空洞",
+      "url": "___"
+    },
+    {
+      "org": "bought",
+      "name": "棒x2",
+      "type": "出店",
+      "description": "[UR-E] 150cm/165cm",
+      "url": "___"
+    },
+    {
+      "org": "bought",
+      "name": "棒x5",
+      "type": "出店",
+      "description": "[KAHM] 150cm×4(スペーシア), 165cm(ステンレス)",
+      "url": "___"
+    },
+    {
+      "org": "bought",
+      "name": "ハンガー",
+      "type": "出店",
+      "description": "[UR-7.5] 銀",
+      "url": "___"
+    },
+    {
+      "org": "bought",
+      "name": "のぼりセット",
+      "type": "棒/ベース",
+      "description": "[UR-7.5/E] 伸縮可能",
+      "url": "___"
+    },
+    {
+      "org": "bought",
+      "name": "非接触アルコールディスペンサー",
+      "type": "日用品",
+      "description": "[UR-K] 2段階調節可能,電池式(単三電池4個),360ml",
+      "url": "___"
+    },
+    {
+      "org": "bought",
+      "name": "納品書",
+      "type": "書類",
+      "description": "[UR-4.5-WW] KOKUYO ウ-367-N ウ-341-N",
+      "url": "___"
+    },
+    {
+      "org": "bought",
+      "name": "発送用厚さ測定定規",
+      "type": "定規",
+      "description": "[UR-4.5-WW] 厚さ1cm,2cm,2.5cm,3cm計測用",
+      "url": "___"
+    },
+    {
+      "org": "other",
+      "name": "国際郵便料金表",
+      "type": "印刷物",
+      "description": "[UR-4.5-WW]",
+      "url": "___"
+    },
+    {
+      "org": "gift",
+      "name": "ラゲッジスケール",
+      "type": "はかり",
+      "description": "[UR-4.5-WW] 吊り下げ式電子スケール MAX50kg",
+      "url": "___"
+    },
+    {
+      "org": "free",
+      "name": "クラフト封筒",
+      "type": "長形1号",
+      "description": "[UR-4.5-WW] A4サイズ対応(二つ折り)",
+      "url": "___"
+    },
+    {
+      "org": "free",
+      "name": "クラフト封筒",
+      "type": "長形3号",
+      "description": "[UR-4.5-WW] A4サイズ対応(三つ折り)",
+      "url": "___"
+    },
+    {
+      "org": "free",
+      "name": "クラフト封筒",
+      "type": "角形8号",
+      "description": "[UR-4.5-WW] B5サイズ対応(三つ折り)",
+      "url": "___"
+    },
+    {
+      "org": "free",
+      "name": "クラフト封筒",
+      "type": "長形40号",
+      "description": "[UR-4.5-WW] A4サイズ対応(四つ折り)",
+      "url": "___"
+    },
+    {
+      "org": "free",
+      "name": "クラフト封筒",
+      "type": "長形4号",
+      "description": "[UR-4.5-WW] B5サイズ対応(四つ折り)",
+      "url": "___"
+    },
+    {
+      "org": "free",
+      "name": "ホワイト封筒",
+      "type": "長形4号",
+      "description": "[UR-4.5-WW] B5サイズ対応(四つ折り)",
+      "url": "___"
+    },
+    {
+      "org": "free",
+      "name": "エアメール封筒",
+      "type": "定形郵便用",
+      "description": "[UR-4.5-WW] 92x165mm 船便使用不可",
+      "url": "___"
+    },
+    {
+      "org": "free",
+      "name": "OPP袋",
+      "type": "A4",
+      "description": "[UR-4.5-WW] テープ付き",
+      "url": "___"
+    },
+    {
+      "org": "free",
+      "name": "OPP袋",
+      "type": "B4",
+      "description": "[UR-4.5-WW] テープ付き",
+      "url": "___"
+    },
+    {
+      "org": "free",
+      "name": "OPP袋",
+      "type": "8x12",
+      "description": "[UR-4.5-WW] テープ付き",
+      "url": "___"
+    },
+    {
+      "org": "free",
+      "name": "OPP袋",
+      "type": "長方形大判",
+      "description": "[UR-4.5-WW]",
+      "url": "___"
+    },
+    {
+      "org": "free",
+      "name": "透明ポケット",
+      "type": "A2",
+      "description": "[UR-4.5-WW]",
+      "url": "___"
+    },
+    {
+      "org": "bought",
+      "name": "ショップバッグ",
+      "type": "紙袋",
+      "description": "[UR-4.5-WW] 32x31.5cm 白色",
+      "url": "___"
+    },
+    {
+      "org": "bought",
+      "name": "巻クラフト紙",
+      "type": "梱包",
+      "description": "[UR-4.5-WW] 90cm",
+      "url": "___"
+    },
+    {
+      "org": "bought",
+      "name": "ストレッチフィルム 大",
+      "type": "梱包",
+      "description": "[UR-4.5-WW] 50cm",
+      "url": "___"
+    },
+    {
+      "org": "bought",
+      "name": "ストレッチフィルム 小",
+      "type": "梱包",
+      "description": "[UR-4.5-WW] 30cm",
+      "url": "___"
+    },
+    {
+      "org": "bought",
+      "name": "チャック付収納パック",
+      "type": "A3",
+      "description": "[UR-4.5-WW] 商品サイズ：40cm×50cm×0cm",
+      "url": "___"
+    },
+    {
+      "org": "bought",
+      "name": "チャック付収納パック",
+      "type": "B4",
+      "description": "[UR-4.5-WW] 商品サイズ：28cm×40cm×0cm",
+      "url": "___"
+    },
+    {
+      "org": "bought",
+      "name": "チャック付収納パック",
+      "type": "A4",
+      "description": "[UR-4.5-WW] 商品サイズ：24cm×34cm×0cm",
+      "url": "___"
+    },
+    {
+      "org": "bought",
+      "name": "ジップ付き袋",
+      "type": "L",
+      "description": "[UR-4.5-WW] 27x28cm",
+      "url": "___"
+    },
+    {
+      "org": "bought",
+      "name": "ジップ付き袋",
+      "type": "M",
+      "description": "[UR-4.5-WW] 18x20.5cm",
+      "url": "___"
+    },
+    {
+      "org": "bought",
+      "name": "ジップ付き袋",
+      "type": "S",
+      "description": "[UR-4.5-WW] 12.7x17.7cm",
+      "url": "___"
+    },
+    {
+      "org": "bought",
+      "name": "ジップ付き袋",
+      "type": "SS",
+      "description": "[UR-4.5-WW] 8.2x16.5cm",
+      "url": "___"
+    },
+    {
+      "org": "free",
+      "name": "藁半紙",
+      "type": "梱包",
+      "description": "[UR-4.5-WW] クッション材として荷物に入っていた紙を保管",
+      "url": "___"
+    },
+    {
+      "org": "free",
+      "name": "気泡緩衝材",
+      "type": "梱包",
+      "description": "[UR-4.5-WW] 届いた荷物に入っていたプチプチ",
+      "url": "___"
+    },
+    {
+      "org": "free",
+      "name": "クッション材",
+      "type": "梱包",
+      "description": "[UR-4.5-WW] 届いた荷物に入っていたクラフト紙製",
+      "url": "___"
+    },
+    {
+      "org": "free",
+      "name": "ダンボール各種",
+      "type": "梱包",
+      "description": "[UR-4.5-WW] 届いた段ボールのうち綺麗なものを発送時に再利用",
+      "url": "___"
+    }
+  ]
+}

@@ -16,8 +16,8 @@ function headToBody() {
     email.innerText = mailto;
 
     let lastModif = document.querySelector('#lastModified time');
-    lastModif.innerText = document.lastModified;
     lastModif.setAttribute("data-time", document.lastModified);
+    lastModif.innerText = document.lastModified;
 
     lastModif.addEventListener('click', function (event) {
         let ago = new Date(document.lastModified);
@@ -36,9 +36,41 @@ function headToBody() {
             event.target.textContent = progress.getUTCMinutes() + ' minute ago';
         } else {
             event.target.textContent = 'Now';
-        }
-    });
-}
+        };
+    }, false);
+};
+
+async function thingsJSON(requestURL) {
+    const request = new Request(requestURL);
+    const response = await fetch(request);
+    const thingsThis = await response.text();
+    const thisJSON = JSON.parse(thingsThis);
+    thingsORG(thisJSON);
+
+    function thingsORG(obj) {
+        const mainThings = document.querySelector('#things');
+        const thingsUL = document.createElement('ul');
+        const thingsP = document.createElement('p');
+
+        thingsUL.id = obj.id;
+        thingsP.textContent = `${obj.value}`;
+
+        mainThings.appendChild(thingsUL);
+        thingsUL.appendChild(thingsP);
+
+        const thingAll = obj.things;
+        for (const thing of thingAll) {
+            const thingLi = document.createElement('li');
+            thingLi.setAttribute("data-org", thing.org);
+            thingLi.innerHTML = `
+            <u>${thing.type}</u>
+            <b>${thing.name}</b>
+            <small>${thing.description}</small>
+            `;
+            thingsUL.appendChild(thingLi);
+        };
+    };
+};
 
 async function readmeMD(url, query) {
     fetch(url)
@@ -46,7 +78,7 @@ async function readmeMD(url, query) {
         .then(innerText => {
             document.querySelector(query).innerText = innerText
         });
-}
+};
 
 function changeMain() {
     const mainAll = document.querySelectorAll('main');
@@ -57,6 +89,6 @@ function changeMain() {
         } else {
             main.hidden = false;
             main.style.display = "flex";
-        }
-    })
-}
+        };
+    }, false);
+};
