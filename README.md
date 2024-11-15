@@ -1,72 +1,18 @@
-# The Things I (We) Own
-**所有するもの** を *カテゴリー・状態* ごとに 整理して記録する
+2022年7月23日 (土) - 8月21日 (日)  
+# The Things I (We) Own, in 3D  
+会場: BnA Alter Museum  
 
-[index.html](index.html)
-* HEAD内にページタイトル・説明文などのメタ情報を記述
-* nav id="org" に 所有するものを 絞り込む ラジオボタンを記述
+## ペフが所有する全てのもの（デジタル／フィジカル・新品／中古・制作物／販売品／非売品）を発表、その中から一部を展示、販売する　|　大切にしたいものを所有する・所有するものを大切にする
 
-```
-<input id="__" value="__" type="radio" name="org">
-<label for="__" data-txt="この項目について">項目名</label>
-```
+### オープニングイベント「P E H U is | Screen Printing」公開制作
+日程：7月23日(土曜) 19時から  
 
-* [index.js](js/index.js) HEAD内のメタデータなどからBODYに要素を生成・JSONファイルから要素を生成
-* [index.css](css/index.css) 所有するものリストをスタイリングするCSS
+ご希望の方は、シルクスクリーンプリント代 ¥1,000にて、P,E,H,U の4文字を頭文字に持つ計35文字から、参加者が4つの言葉を選び、あなたの選んだアイテムに印刷できます。
 
-***
-## 〇〇.json
-所有するもののデータを追加するJSONファイル
-
-```
-{
-  "id" : "___",
-  "value" : "___",
-
-  "things" : [
-    {
-      "org" : "___",
-      "name" : "___",
-      "type" : "___",
-      "description" : "___"
-    },
-    {
-      "org" : "___",
-      "name" : "___",
-      "type" : "___",
-      "description" : "___"
-    }
-  ]
-}
-```
-
-[cover.json](json/cover.json)
-* ページトップに表示する画像データを追加
-
-```
-    {
-      "org": "項目の値",
-      "size": "サイズの値",
-      "x": "横軸(%)",
-      "y": "縦軸(%)",
-      "src": "画像URL"
-    }
-    
-```
-* size
-xxx-large | xx-large | x-large | large | medium | small | x-small | xx-small | xxx-small
-* x | y
-それぞれ 50% が 中央 | x 0% が 左端 : 100% が 右端 | y 0% が 上端 100% が 下端
+※予約不要。 印刷する対象アイテム代は別途。対象アイテムの持ち込みも可。
 
 
-* [cover.js](css/cover.js) JSONからカバー画像を生成
-* [cover.css](css/cover.css) カバー画像をスタイリングするCSS
-
-***
-
-* [org.js](js/org.js) 絞り込みを実装するJavaScript
-* [org.css](css/org.css) ページ全体をスタイリングするCSS
-
-***
-
-### [stylesheet.css](stylesheet.css)
-色やフォントなどを独自にスタイリングするCSS
+### [宿泊者限定]：ペフの令和四年版／夏の自由研究
+ビーエヌエーオルターミュージアムに宿泊する人たちの気持ちを知る・表す  
+ビーエヌエーオルターミュージアムの周りで聞いた言葉を集めた地図を作る  
+など
