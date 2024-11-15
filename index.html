@@ -12,8 +12,8 @@
 
     <!-- Meta Tags -->
     <title>The Things I (We) Own</title>
-    <meta name="description" content="このページに、私（わたしたち）が所有するもの を 用途・入手経路 ごとに 整理して記録します。">
     <meta property="og:title" content="The Things I (We) Own">
+    <meta name="description" content="このページに、私（わたしたち）が所有するもの を 用途・入手経路 ごとに 整理して記録します。">
     <meta property="og:description" content="このページに、私（わたしたち）が所有するもの を 用途・入手経路 ごとに 整理して記録します。">
 
     <meta property="og:type" content="website">
@@ -23,7 +23,6 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content="https://the-things-i-we-own.github.io/cover.png">
 
-    <!--https://the-things-i-we-own.github.io/-->
     <link rel="stylesheet" type="text/css" href="stylesheet.css?v=0.00">
     <link rel="stylesheet" type="text/css" href="css/org.css?v=0.00">
     <link rel="stylesheet" type="text/css" href="css/cover.css?v=0.00">
@@ -36,7 +35,6 @@
         document.addEventListener("DOMContentLoaded", function () {
             headToBody();
             coverJson('json/cover.json');
-            readmeMD('README.md', '#readme');
 
             thingsJSON('json/furniture.json');
             thingsJSON('json/goods.json');
@@ -47,6 +45,8 @@
             thingsJSON('json/stationary.json');
             thingsJSON('json/tools.json');
             thingsJSON('json/computer.json');
+
+            readmeMD('README.md', '#readme');
         });
     </script>
     <style>
@@ -91,6 +91,7 @@
         <p id="lastModified">
             <span>Last Modified</span> <time></time><br />
             <span>Links</span>
+            <a href="3d/" target="_blank">3D</a>
             <a href="https://github.com/the-things-i-we-own/" target="_blank">GitHub</a>
         </p>
     </footer>
