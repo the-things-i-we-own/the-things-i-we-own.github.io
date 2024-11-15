@@ -20,23 +20,27 @@ function headToBody() {
     lastModif.innerText = document.lastModified;
 
     lastModif.addEventListener('click', function (event) {
-        let ago = new Date(document.lastModified);
-        let diff = new Date().getTime() - ago.getTime();
-
-        let progress = new Date(diff);
-        if (progress.getUTCFullYear() - 1970) {
-            event.target.textContent = progress.getUTCFullYear() - 1970 + ' year ago';
-        } else if (progress.getUTCMonth()) {
-            event.target.textContent = progress.getUTCMonth() + ' month ago';
-        } else if (progress.getUTCDate() - 1) {
-            event.target.textContent = progress.getUTCDate() - 1 + ' day ago';
-        } else if (progress.getUTCHours()) {
-            event.target.textContent = progress.getUTCHours() + ' hour ago';
-        } else if (progress.getUTCMinutes()) {
-            event.target.textContent = progress.getUTCMinutes() + ' minute ago';
+        if (lastModif.textContent == document.lastModified) {
+            let ago = new Date(document.lastModified);
+            let diff = new Date().getTime() - ago.getTime();
+    
+            let progress = new Date(diff);
+            if (progress.getUTCFullYear() - 1970) {
+                event.target.textContent = progress.getUTCFullYear() - 1970 + ' year ago';
+            } else if (progress.getUTCMonth()) {
+                event.target.textContent = progress.getUTCMonth() + ' month ago';
+            } else if (progress.getUTCDate() - 1) {
+                event.target.textContent = progress.getUTCDate() - 1 + ' day ago';
+            } else if (progress.getUTCHours()) {
+                event.target.textContent = progress.getUTCHours() + ' hour ago';
+            } else if (progress.getUTCMinutes()) {
+                event.target.textContent = progress.getUTCMinutes() + ' minute ago';
+            } else {
+                event.target.textContent = 'Now';
+            };
         } else {
-            event.target.textContent = 'Now';
-        };
+            lastModif.textContent = document.lastModified
+        }
     }, false);
 };
 
